@@ -90,4 +90,6 @@ Get the user to go over their notes, make sure you understand them thoroughly, a
 
 (Also don't assume that any notes in the project correspond to the outcome of this step)
 
+Note that part of this may be capturing questions that still need answering in a `Questions.md` file. 
+
 ## Formalizing

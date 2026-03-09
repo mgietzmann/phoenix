@@ -1,7 +1,7 @@
 - The pelagic is a vast space
-- First there are the plankton (from which patchiness arises)
-- Then there are the nekton (which combined with the plankton constitute the majority of the biomass in the ocean)
-- In that category are a set of predators willing to move like crazy to find that food
-- Define the problem: finding a needle in a haystack
-- The problem is important: there is commercial, cultural, and environmental value in this mobile predators
-- Goal: We're going to survey what is known, how it is known, what's left to be known, and why it matters
+- Plankton are the building block of the pelagic food web — and they are drifters
+- Because they are drifters dependent on specific conditions, the base of the food web ends up patchy, ephemeral, and uncommon — you have to know where to look
+- The nekton — krill, mesopelagic fish, shrimp — use their motility to hide from predators by retreating into the water column, making prey a 3D search problem spread across a massive hidden biomass
+- For a large pelagic predator, finding food is a needle in a haystack across three dimensions
+- These predators are commercially, culturally, and ecologically critical
+- Goal: survey what is known, how it is known, what's left to be known, and why it matters
