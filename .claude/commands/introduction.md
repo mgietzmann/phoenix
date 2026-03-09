@@ -72,24 +72,42 @@ Also go ahead and update the `Quest.md` in the project to have a sub-task under 
 
 Before the user goes treasure hunting it's time to setup a notebooklm notebook and a zotero directory! Just make sure they go about doing this before moving on. 
 
-### 3. Treasure Hunting
+### 3. The Loop
 
-This proceeds one line item in the funnel at a time. The user is responsible here for marking off each line item that they complete. Encourage them to use the `Treasure Hunting` ritual. 
+Now is the time to setup `Questions.md` and `Takeaways.md` for the user. Each file just starts with 
+
+```
+# Round 1
+```
+
+With each new round in the loop we'll add a corresponding header and also add a new round to the loop in the `Quest.md`. 
+
+#### 3a. Build Questions
+
+First work with the user to outline up to three questions they'd like to answer. They should feel that in answering these questions they will find significant treasures (whoppers) that will fill out their outline. Add these questions as a checklist to the round in `Questions.md`. 
+
+Feel free to make suggestions on questions here to get the user's brain juices flowing.
+
+Make sure you mark this off in `Quest.md`
+
+#### 3b. Treasure Hunting
+
+Here the user will be going and answering the questions for this round (along with any questions that come up along the way). Encourage them to use the `Treasure Hunting` ritual. 
+
+Make a special point that they should switch out of this ritual when they've found takeaways that significantly alter the organization. 
 
 ### 4. Take a Step Back
 
-Alright the user has done some treasure hunting, may have modified the Funnel a bit as they went along and now has a better appreciate for the facts. They are also probably feeling a bit funky in the head because stuff never lines up as nicely as one had originally hoped. So now is the time to take a step back and reorganize. 
+Alright the user has done some treasure hunting and now has a better appreciation for the facts. They are also probably feeling a bit funky in the head because stuff never lines up as nicely as one had originally hoped. So now is the time to take a step back and reorganize. 
 
 Time for the `Take a Step Back` ritual.
 
-(Also don't assume that any notes in the project correspond to the outcome of this step)
+They will put the notes for this round in the corresponding section in `Takeaways.md`. 
 
 ### 5. Reorganize
 
-Get the user to go over their notes, make sure you understand them thoroughly, and then work with the user to reorganize both the `Funnel.md` and the `Outline.md`. Once they are happy, make sure the `Quest.md` items under "Treasure Hunting" align with the Funnel, and then uncheck everything from "Treasure Hunting" down. It's time to repeat! 
+Looking through the notes for this round in `Takeaways.md`, make sure you understand them thoroughly, and then work with the user to reorganize both the `Funnel.md` and the `Outline.md`. Once they are happy, add a new round to the `Quest.md`, `Questions.md` and `Takeaways.md`. It's time to repeat! 
 
-(Also don't assume that any notes in the project correspond to the outcome of this step)
-
-Note that part of this may be capturing questions that still need answering in a `Questions.md` file. 
+Make sure you mark this off in `Quest.md`
 
 ## Formalizing

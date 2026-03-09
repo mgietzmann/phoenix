@@ -9,8 +9,11 @@
 - [ ] Phase 2: Developing the Introduction
   - [ ] Drafting the Funnel
   - [ ] Setting up a Notebook
-  - [ ] Treasure Hunting
-  - [ ] Take a Step Back
-  - [ ] Reorganize
+  - [ ] The Loop
+    - [ ] Round 1
+      - [ ] Build Questions
+      - [ ] Treasure Hunting
+      - [ ] Take a Step Back
+      - [ ] Reorganize
 - [ ] Phase 3: 
   - [ ] TBD...

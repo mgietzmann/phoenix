@@ -9,15 +9,11 @@
 - [ ] Phase 2: Developing the Introduction
   - [x] Drafting the Funnel
   - [x] Setting up a Notebook
-  - [ ] Treasure Hunting
-    - [ ] The pelagic is a vast space
-    - [ ] Plankton are the building block of the pelagic food web — and they are drifters
-    - [ ] Because they are drifters dependent on specific conditions, the base of the food web ends up patchy, ephemeral, and uncommon
-    - [ ] The nekton use their motility to hide from predators by retreating into the water column — 3D search problem, massive biomass
-    - [ ] For a large pelagic predator, finding food is a needle in a haystack across three dimensions
-    - [ ] These predators are commercially, culturally, and ecologically critical
-    - [ ] Goal: survey what is known, how it is known, what's left, and why it matters
-  - [ ] Take a Step Back
-  - [ ] Reorganize
+  - [ ] The Loop
+    - [ ] Round 1
+      - [x] Build Questions
+      - [ ] Treasure Hunting
+      - [ ] Take a Step Back
+      - [ ] Reorganize
 - [ ] Phase 3:
   - [ ] TBD...

@@ -57,14 +57,12 @@ Don't take more than an hour or so at a time with this ritual.
 
 ## Treasure Hunting
 
-Time to find treasures (whoppers) that'll support a topic sentence! 
+Time to find treasures (whoppers) that'll support the topics in your outline! 
 
-1. Start by creating a list of questions whose answers you think will really power your topic sentence (for example if the topic sentence is "The pacific ocean is a vast environment" think of questions like "how vast" "how to define vastness" "how does it compare to other oceans" etc.) Remember the purpose here is to paint a vivid picture. 
-2. Once you're happy with your question list, pull up google search or google scholar's lab AI and start asking away! As you find resources plug them into both zotero and notebooklm and use notebooklm to ask questions and review answers.
-3. As you start finding answers plug them into your `Outline.md` and make sure you include a citation!
+1. Start by referencing your `Questions.md` and find a particularly juicy question. 
+2. Then pull up google search or google scholar's lab AI and start asking away! As you find resources plug them into both zotero and notebooklm and use notebooklm to ask questions and review answers.
+3. As you start finding answers plug them into your `Outline.md` and `Questions.md` and make sure you include a citation!
 4. Also as new questions come to mind, add them to your questions list.
-
-Once you feel you've gotten enough material you're done treasure hunting for this topic sentence. 
 
 Also remember, the point here is not to find nice polished sentences - it is just to get fascinating details onto the outline!
 
@@ -84,9 +82,13 @@ This is best done where you have space to think (private can think out loud if n
 
 Step away after an hour or so - if we get too lost in the weeds we'll miss the forest for the trees. 
 
+Also if you get to the point where you can tell your original organization just isn't going to cut it, step back, it's time to finish this round. 
+
 ## Take a Step Back
 
 Okay you've got a better sense of the facts now. And you're probably realizing the organization you thought made sense doesn't anymore. So it's time to revisit your funnel and your outline! This is another brainstorming activity where the end goal is to jot down some takeaways on reorganization, new questions etc. that you can then work through with Claude. 
+
+Make sure you add your notes to the `Takeaways.md` section for this round. 
 
 ### Tools
 
