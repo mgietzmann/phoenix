@@ -76,4 +76,8 @@ Before the user goes treasure hunting it's time to setup a notebooklm notebook a
 
 This proceeds one line item in the funnel at a time. The user is responsible here for marking off each line item that they complete. Encourage them to use the `Treasure Hunting` ritual. 
 
+Also note to the user that as they are treasure hunting they will likely find that parts of their funnel need to be split to incorporate the detail they found. All they need to do is keep the `Funnel.md` up to date. 
+
+If you find it has changed compared to the quests go and update the `Quest.md` file to capture the Funnel changes. 
+
 ## Formalizing

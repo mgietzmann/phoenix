@@ -11,8 +11,9 @@
   - [x] Setting up a Notebook
   - [ ] Treasure Hunting
     - [ ] The pelagic is a vast space
-    - [ ] There are a dynamic set of food sources in that space
-    - [ ] Predators willing to move like crazy to find that food
+    - [ ] First there are the plankton
+    - [ ] Then there is the nekton
+    - [ ] In that category are a set of predators willing to move like crazy to find that food
     - [ ] Define the problem: finding a needle in a haystack
     - [ ] The problem is important: commercial, cultural, and environmental value
     - [ ] Goal: survey what is known, how it is known, what's left, and why it matters

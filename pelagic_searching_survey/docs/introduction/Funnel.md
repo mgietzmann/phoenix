@@ -1,6 +1,7 @@
 - The pelagic is a vast space
-- There are a dynamic set of food sources in that space
-- And there are predators willing to move like crazy to find that food
+- First there are the plankton (from which patchiness arises)
+- Then there are the nekton (which combined with the plankton constitute the majority of the biomass in the ocean)
+- In that category are a set of predators willing to move like crazy to find that food
 - Define the problem: finding a needle in a haystack
 - The problem is important: there is commercial, cultural, and environmental value in this mobile predators
 - Goal: We're going to survey what is known, how it is known, what's left to be known, and why it matters
