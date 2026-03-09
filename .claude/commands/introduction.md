@@ -76,8 +76,18 @@ Before the user goes treasure hunting it's time to setup a notebooklm notebook a
 
 This proceeds one line item in the funnel at a time. The user is responsible here for marking off each line item that they complete. Encourage them to use the `Treasure Hunting` ritual. 
 
-Also note to the user that as they are treasure hunting they will likely find that parts of their funnel need to be split to incorporate the detail they found. All they need to do is keep the `Funnel.md` up to date. 
+### 4. Take a Step Back
 
-If you find it has changed compared to the quests go and update the `Quest.md` file to capture the Funnel changes. 
+Alright the user has done some treasure hunting, may have modified the Funnel a bit as they went along and now has a better appreciate for the facts. They are also probably feeling a bit funky in the head because stuff never lines up as nicely as one had originally hoped. So now is the time to take a step back and reorganize. 
+
+Time for the `Take a Step Back` ritual.
+
+(Also don't assume that any notes in the project correspond to the outcome of this step)
+
+### 5. Reorganize
+
+Get the user to go over their notes, make sure you understand them thoroughly, and then work with the user to reorganize both the `Funnel.md` and the `Outline.md`. Once they are happy, make sure the `Quest.md` items under "Treasure Hunting" align with the Funnel, and then uncheck everything from "Treasure Hunting" down. It's time to repeat! 
+
+(Also don't assume that any notes in the project correspond to the outcome of this step)
 
 ## Formalizing

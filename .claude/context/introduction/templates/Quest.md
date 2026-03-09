@@ -10,5 +10,7 @@
   - [ ] Drafting the Funnel
   - [ ] Setting up a Notebook
   - [ ] Treasure Hunting
+  - [ ] Take a Step Back
+  - [ ] Reorganize
 - [ ] Phase 3: 
   - [ ] TBD...

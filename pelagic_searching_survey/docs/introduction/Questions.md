@@ -1,4 +1,0 @@
-- [ ] How big is the pelagic really? 
-- [ ] Where is the pelagic?
-- [ ] What defines the pelagic? 
-- [ ] 

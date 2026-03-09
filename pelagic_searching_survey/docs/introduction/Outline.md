@@ -23,11 +23,14 @@
 
 **Lead:** Then on top of this are the nekton. 
 **Development:**
+- These are creatures that can decide on where they end up in the water column. 
+- The nekton are dominated by crustaceans like shrimp and small mesopelagic fish many species of which migrate from the depths in which they hide during the day to the surface at night to feed on plankton (Bar-On, 2019)
+- This DVM (daily vertical migration) includes shrump, copepods, and krill and gives us just a sense of how massive the biomass is here with a recent estimate putting it at well over a gigatonne (1000 million tonnes) worldwide. 
 
 **Lead:** At the top of this food web sit some of the most mobile animals on Earth — tunas, billfishes, and oceanic sharks capable of crossing entire ocean basins in months.
 **Development:**
-- Large predators often eat very small things — the trophic ordering here is unlike land (Hueter, 2013)
 - Migration examples: whale shark 7,213 km in 150 days, blue marlin 8,853 km, southern bluefin tuna 111,883 km over four years (Hueter, 2013; Andrzejaczek, 2023; Patterson, 2018)
+
 
 **Lead:** For these animals, finding food is like finding a needle in a haystack — a constant, high-stakes search across a featureless expanse where prey is sparse, patchy, and invisible until you are almost upon it.
 **Development:**

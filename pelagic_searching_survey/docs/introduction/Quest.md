@@ -9,13 +9,15 @@
 - [ ] Phase 2: Developing the Introduction
   - [x] Drafting the Funnel
   - [x] Setting up a Notebook
-  - [ ] Treasure Hunting
-    - [ ] The pelagic is a vast space
-    - [ ] First there are the plankton
-    - [ ] Then there is the nekton
-    - [ ] In that category are a set of predators willing to move like crazy to find that food
-    - [ ] Define the problem: finding a needle in a haystack
-    - [ ] The problem is important: commercial, cultural, and environmental value
-    - [ ] Goal: survey what is known, how it is known, what's left, and why it matters
+  - [x] Treasure Hunting
+    - [x] The pelagic is a vast space
+    - [x] First there are the plankton
+    - [x] Then there is the nekton
+    - [x] In that category are a set of predators willing to move like crazy to find that food
+    - [x] Define the problem: finding a needle in a haystack
+    - [x] The problem is important: commercial, cultural, and environmental value
+    - [x] Goal: survey what is known, how it is known, what's left, and why it matters
+  - [ ] Take a Step Back
+  - [ ] Reorganize
 - [ ] Phase 3:
   - [ ] TBD...

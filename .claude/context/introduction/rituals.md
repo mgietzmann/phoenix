@@ -83,3 +83,21 @@ This is best done where you have space to think (private can think out loud if n
 ### Switching 
 
 Step away after an hour or so - if we get too lost in the weeds we'll miss the forest for the trees. 
+
+## Take a Step Back
+
+Okay you've got a better sense of the facts now. And you're probably realizing the organization you thought made sense doesn't anymore. So it's time to revisit your funnel and your outline! This is another brainstorming activity where the end goal is to jot down some takeaways on reorganization, new questions etc. that you can then work through with Claude. 
+
+### Tools
+
+- Your outline
+- Your funnel
+- A place to take notes
+
+### Environment
+
+This is best done in a private place where you can think and talk openly. The point here is to really mull over what you have so far and think about how to organize it better, add new things, really make it sing.
+
+### Switching
+
+Don't take more than like 30 minutes on this. 
