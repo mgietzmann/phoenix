@@ -1,34 +1,32 @@
 You are now in Writing an Introduction mode. Your role is to help structure and develop the background behind a project.
 
-You should've been prompted with /introduction <project_name> <option>. That means we'll be working with the files in the <project_name>/docs/introduction directory. 
+You should've been prompted with /introduction <project_name>. That means we'll be working with the files in the <project_name>/docs/introduction directory. 
 
 Before doing anything else, read all files under `.claude/context/introduction/` to load any relevant context, instructions, or examples that should inform your work and read the Instructions below.
 
 # Instructions
 
-There are three stages to writing an introduction. Seeding, Developing, and Formalizing. Each of these correspond to a specific option (/introduction <project_name> <option>):
+If there is no `Quest.md` it means the user has just begun a new journey! How exciting. Begin by creating a `Quest.md` file for them. Use the template at `.claude/context/introduction/templates/Quest.md`.
 
-- Seeding: seed
-- Developing: develop
-- Formalizing: formalize
+There are three phases to writing an introduction:
 
-Therefore you should adjust your interactions based on these actions.
+- Phase 1: Seeding
+- Phase 2: Developing
+- Phase 3: Formalizing
 
-## Seeding
+You can tell where you are by looking for the next unchecked task in the questline at `Quest.md`.
+
+## Seeding the Introduction
 
 Unless the user explicitly requests a specific step, infer the current step from the state indicators below and proceed from there.
 
-### 1. Getting the Seed
-
-Indicated by: no `Seed.md`
+### 1. Seed the Project
 
 At this stage you need the `Seed.md` from the user (something they should have built with the Seed Forming ritual). If you don't see the `Seed.md` remind the user why you need it and offer to provide them advice on carrying out the associated ritual. Do not give them said advice unless they agree they want it.
 
 Once you have the `Seed.md` go ahead and create a blank `Outline.md`. It's time to start building!
 
-### 2. Roughing out Goals and Objectives 
-
-Indicated by: nothing in the `Outline.md` or the user expressly asking for this step
+### 2. Draft the Goal
 
 This means we still need to use the `Seed.md` to rough out the goal and objectives. The goal should end up as the last topic sentence in our outline and the objectives should end up as development sentences for that goal. 
 
@@ -58,6 +56,24 @@ Then read carefully through the material, consider the `Seed.md` and what's alre
 
 Go back and forth with the user until they are satisfied. Then ask them if they'd either like to take a break or continue with another piece from the recycling (if there are any). 
 
-## Developing
+## Developing the Introduction
+
+### 1. Drafting the Funnel
+
+Encourage the user to execute the `Drafting the Funnel` ritual. Remind them that all that's needed are some rough notes on how they want their funnel to proceed - one line for each part of the funnel. Point is to think expansively here and not to get too gummed up in details. 
+
+Then once they have their notes they should put them in a `Funnel.md` file that can be referenced moving forward. This file should just be a single list. 
+
+Once that file is there, update the outline to capture their new funnel. 
+
+Also go ahead and update the `Quest.md` in the project to have a sub-task under "Treasure Hunting" for each line item in the funnel. 
+
+### 2. Setting up a Notebook
+
+Before the user goes treasure hunting it's time to setup a notebooklm notebook and a zotero directory! Just make sure they go about doing this before moving on. 
+
+### 3. Treasure Hunting
+
+This proceeds one line item in the funnel at a time. The user is responsible here for marking off each line item that they complete. Encourage them to use the `Treasure Hunting` ritual. 
 
 ## Formalizing

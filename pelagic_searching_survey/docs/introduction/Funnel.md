@@ -1,0 +1,6 @@
+- The pelagic is a vast space
+- There are a dynamic set of food sources in that space
+- And there are predators willing to move like crazy to find that food
+- Define the problem: finding a needle in a haystack
+- The problem is important: there is commercial, cultural, and environmental value in this mobile predators
+- Goal: We're going to survey what is known, how it is known, what's left to be known, and why it matters

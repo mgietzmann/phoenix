@@ -13,15 +13,15 @@
 - Large predators often eat very small things — the trophic ordering here is unlike land (Hueter, 2013)
 - Migration examples: whale shark 7,213 km in 150 days, blue marlin 8,853 km, southern bluefin tuna 111,883 km over four years (Hueter, 2013; Andrzejaczek, 2023; Patterson, 2018)
 
+**Lead:** For these animals, finding food is like finding a needle in a haystack — a constant, high-stakes search across a featureless expanse where prey is sparse, patchy, and invisible until you are almost upon it.
+**Development:**
+- Draw from Seed.md descriptions of each level (migration, searching, final approach)
+
 **Lead:** These are not just biologically remarkable animals — they are commercially and ecologically critical, and they are in trouble.
 **Development:**
 - 13% of managed tuna stocks are overfished; 44% of oceanic sharks are threatened (Sala, 2018)
 - The largest threat for blue marlin and pelagic sharks is incidental bycatch in longline fisheries (Boerder, 2019; Andrzejaczek, 2023)
 - Many low-income and small island nations depend on these predators for livelihoods, culture, and nutrition (Arostegui, 2022)
-
-**Lead:** The question of how these animals find prey can be broken into three successively more focused levels — migration to the foraging ground, searching within it, and closing the final gap to the prey itself.
-**Development:**
-- Draw from Seed.md descriptions of each level
 
 **Lead:** This paper synthesizes what is known about prey-finding across all three levels — migration, searching, and the final approach — to build a coherent picture that spans ocean basin to stomach.
 **Development:**
