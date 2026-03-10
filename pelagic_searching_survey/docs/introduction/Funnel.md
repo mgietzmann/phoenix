@@ -1,7 +1,9 @@
 - The pelagic is a vast space
 - Plankton are the building block of the pelagic food web — and they are drifters
-- Because they are drifters dependent on specific conditions, the base of the food web ends up patchy, ephemeral, and uncommon — you have to know where to look
-- The nekton — krill, mesopelagic fish, shrimp — use their motility to hide from predators by retreating into the water column, making prey a 3D search problem spread across a massive hidden biomass
-- For a large pelagic predator, finding food is a needle in a haystack across three dimensions
+- As drifters, phytoplankton need two things from the ocean: nutrients and light
+- A diverse array of physical and oceanographic processes can set up these conditions
+- These processes are highly dynamic — varying by season, geography, and timescale — making the productive environment heterogeneous and ever-changing
+- The nekton add yet another layer of variability: they use their motility to hide, retreating into the water column on a light-driven cycle
+- For a large pelagic predator, finding food therefore requires adaptability to a complex, ever-shifting environment
 - These predators are commercially, culturally, and ecologically critical
 - Goal: survey what is known, how it is known, what's left to be known, and why it matters

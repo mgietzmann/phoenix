@@ -10,8 +10,13 @@
   - [x] Drafting the Funnel
   - [x] Setting up a Notebook
   - [ ] The Loop
-    - [ ] Round 1
+    - [x] Round 1
       - [x] Build Questions
+      - [x] Treasure Hunting
+      - [x] Take a Step Back
+      - [x] Reorganize
+    - [ ] Round 2
+      - [ ] Build Questions
       - [ ] Treasure Hunting
       - [ ] Take a Step Back
       - [ ] Reorganize

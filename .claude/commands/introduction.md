@@ -84,11 +84,9 @@ With each new round in the loop we'll add a corresponding header and also add a 
 
 #### 3a. Build Questions
 
-First work with the user to outline up to three questions they'd like to answer. They should feel that in answering these questions they will find significant treasures (whoppers) that will fill out their outline. Add these questions as a checklist to the round in `Questions.md`. 
+Work with the user to outline up to three questions they'd like to answer. They should feel that in answering these questions they will find significant treasures (whoppers) that will fill out their outline. 
 
-Feel free to make suggestions on questions here to get the user's brain juices flowing.
-
-Make sure you mark this off in `Quest.md`
+Tell them to take advantage of the /question command in Claude. 
 
 #### 3b. Treasure Hunting
 

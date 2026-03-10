@@ -15,23 +15,33 @@
 - Yet there are also small pelagic snails whose shells measure in tens of millimeters (Lalli, 2006) and there are also salps whose individuals measure up to 30cm but can form aggregations many meters long (Lalli, 2006)
 - Jellyfish are also in this category as they too are bound to the currents of the ocean (Lalli, 2006)
 
-**Lead:** Because plankton are drifters dependent on very specific physical conditions, the base of the food web is not spread evenly across the ocean — it is patchy, ephemeral, and, on the scale of the global ocean, uncommon.
+**Lead:** As drifters, phytoplankton depend on the ocean to provide two things: nutrients and light.
 **Development:**
-- Given these creatures are at the mercy of the movement of water they require very specific conditions to bloom in abundance.
-- Specifically the phytoplankton need two things:
 - To be kept at depths where the photosynthetic production outpaces metabolic losses (Lalli, 2006)
-- And for there be/have been enough mixing (from for example wind mixing or coastal upwelling) to bring in nutrients from the deep (Behrenfeld, 2014), or for nutrients to have come from such sources as river systems or dust falls (Behrenfeld, 2014).
+- And for there be/have been enough mixing to bring in nutrients from the deep (Behrenfeld, 2014), or for nutrients to have come from such sources as river systems or dust falls (Behrenfeld, 2014).
+
+**Lead:** A diverse array of physical and oceanographic processes can set up these conditions.
+**Development:**
+- Upwelling where wind driven currents move surface waters away from the coast creating a circulation that draws colder nutrient rich water to the surface (Acha, 2015)
+- Narrow boundaries between different water masses, such as tidal fronts, upwelling fronts, and plume fronts, generate intense vertical circulations (Acha, 2015)
+- Mesoscale eddies are rotating bodies of water that have spatial scales of order 10–100 km, can persist for weeks to years trapping and transporting large water masses across vast distances and by driving the vertical flux of heat and nutrients which, in turn, can modulate primary production (Arostegui, 2022)
+- Nutrients can also be mixed into surface waters by currents interacting with intense bathymetry and geography such as islands, shelf breaks, and ragged coastlines (Acha, 2015)
+- Finally glacial melting, river discharge, and dust settling (Acha, 2015; Behrenfeld, 2014) will bring in nutrients as well.
+
+**Lead:** These processes are highly dynamic — varying by season, geography, and timescale — making the productive environment heterogeneous and ever-changing.
+**Development:**
+- While mechanical energy brings nutrients up, solar heating creates a thermocline which creates stratification that limits the depth to which phytoplankton are mixed (Acha, 2015)
 - What we have then is a patchy distribution of biomass suspended in the water column defined by weather, currents, and coastlines amongst other things.
 - "On the basis of global areal extent, phytoplankton blooms are uncommon" (Behrenfeld, 2014).
 
-**Lead:** The nekton — krill, mesopelagic fish, and shrimp — add another dimension to this problem: they can move, and they use that motility to hide, retreating to depth during the day and surfacing only at night to feed.
+**Lead:** The nekton — krill, mesopelagic fish, and shrimp — add yet another layer of variability: they can move, and they use that motility to hide, retreating to depth during the day and surfacing only at night to feed.
 **Development:**
 - These are creatures that can decide on where they end up in the water column.
 - The nekton are dominated by crustaceans like shrimp and small mesopelagic fish many species of which migrate from the depths in which they hide during the day to the surface at night to feed on plankton (Bar-On, 2019)
 - This DVM (daily vertical migration) means that prey is not at the surface waiting to be found — it is distributed throughout the water column on a cycle determined by light, not by the predator's needs.
 - This DVM includes shrimp, copepods, and krill and gives us just a sense of how massive the biomass is here with a recent estimate putting it at well over a gigatonne (1000 million tonnes) worldwide (Bar-On, 2019).
 
-**Lead:** For a large pelagic predator, then, finding food is a needle-in-a-haystack problem played out across three dimensions and an ocean basin.
+**Lead:** For a large pelagic predator, then, finding food requires adaptability to a complex, ever-shifting environment — a suite of behavioral responses to a world that never sits still.
 **Development:**
 - The environment offers no landmarks, no terrain to guide a search — only invisible gradients of temperature, salinity, and chemistry, reorganized constantly by currents.
 - Light disappears quickly: in clear water, only 0.003% of surface light reaches 300 meters, limiting visibility.
