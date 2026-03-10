@@ -48,8 +48,11 @@
 - A relatively common prey item like the pelagic shrimp may be distributed at a density of just one individual per 200–2,000 cubic meters of water.
 - And that prey is not waiting — it is either drifting with currents in patches that form and dissolve, or actively retreating from the surface into the dark.
 
-**Lead:** These are not just biologically remarkable animals — they are commercially and ecologically critical, and they are in trouble.
+**Lead:** These are not just biologically remarkable animals — they are critical as well.
 **Development:**
+- Billfish are important pillars of tourism income in the Caribbean. Tourists in the Caribbean will pay close to $3000 each day to go fishing for billfish generating millions in revenue (Gentner, 2018). 
+- In the Indian ocean 93,500T of billfish were caught in 2022 which was actually a decline as compared to past years (IOTC, 2024). 
+- Yet this is not a complete count because while many countries in the Indian ocean have recreational fisheries like those in the Caribbean, there is very little reporting on the take from those fisheries (Mwanjali, 2026; Kadagi, 2022)
 - 13% of managed tuna stocks are overfished; 44% of oceanic sharks are threatened (Sala, 2018)
 - The largest threat for blue marlin and pelagic sharks is incidental bycatch in longline fisheries (Boerder, 2019; Andrzejaczek, 2023)
 - Many low-income and small island nations depend on these predators for livelihoods, culture, and nutrition (Arostegui, 2022)

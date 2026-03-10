@@ -44,5 +44,27 @@ Are there prerequisites that need to come first? Where does this question sit in
 
 ---
 
+## Search Strategy
+
+**Conceptual threads**
+What are the 2–5 core concepts or sub-questions this question decomposes into? Each thread is a distinct search axis.
+
+- [thread 1]
+- [thread 2]
+- ...
+
+**Queries**
+
+| Thread | Query string | Type |
+|--------|-------------|------|
+| [thread] | [search string] | empirical / review / book |
+
+*Type: `empirical` = specific studies; `review` = synthesis or meta-analysis; `book` = textbook or monograph chapter*
+
+**Notes**
+What did you find? What threads came up empty? What vocabulary worked or didn't?
+
+---
+
 ## Change log
 - [date]: [brief note on what changed and why]

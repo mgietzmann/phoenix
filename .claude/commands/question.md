@@ -22,18 +22,20 @@ If no document exists, create one using the template at `.claude/context/questio
 
 ## The Workflow
 
-There are three phases:
+There are four phases:
 
 - **Phase 1: Orient** — audience and purpose
 - **Phase 2: Sharpen** — specificity, falsifiability, essentiality, causal depth
 - **Phase 3: Situate** — sufficiency, related questions, sequencing
+- **Phase 4: Search** — decompose the question into searchable threads, translate into field vocabulary, and draft Google Scholar Lab query strings as full natural language questions (not keyword strings)
 
-Use the review guide at `.claude/context/question/review.md` to know how to prompt the user through each section.
+Use the review guide at `.claude/context/question/review.md` to know how to prompt the user through Phases 1–3. Use the search guide at `.claude/context/question/search.md` for Phase 4.
 
 The process is **iterative**. You do not march through the phases once and stop. As the question evolves, revisit whichever phases are affected. For example:
 - If the audience shifts, re-examine essentiality and causal depth.
 - If the question gets more specific, revisit sufficiency.
 - If a new related question surfaces, check whether it should be absorbed or sequenced.
+- Phase 4 is also iterative — after the user tests queries in Scholar Lab, return to refine based on what did and didn't surface.
 
 After any meaningful change to the question, update the document and add a line to the **Change log** with today's date and a brief note on what shifted and why.
 
