@@ -27,10 +27,10 @@
 - Mesoscale eddies are rotating bodies of water that have spatial scales of order 10–100 km, can persist for weeks to years trapping and transporting large water masses across vast distances and by driving the vertical flux of heat and nutrients which, in turn, can modulate primary production (Arostegui, 2022)
 - Nutrients can also be mixed into surface waters by currents interacting with intense bathymetry and geography such as islands, shelf breaks, and ragged coastlines (Acha, 2015)
 - Finally glacial melting, river discharge, and dust settling (Acha, 2015; Behrenfeld, 2014) will bring in nutrients as well.
+- While mechanical energy brings nutrients up, solar heating creates a thermocline which creates stratification that limits the depth to which phytoplankton are mixed (Acha, 2015)
 
 **Lead:** These processes are highly dynamic — varying by season, geography, and timescale — making the productive environment heterogeneous and ever-changing.
 **Development:**
-- While mechanical energy brings nutrients up, solar heating creates a thermocline which creates stratification that limits the depth to which phytoplankton are mixed (Acha, 2015)
 - What we have then is a patchy distribution of biomass suspended in the water column defined by weather, currents, and coastlines amongst other things.
 - "On the basis of global areal extent, phytoplankton blooms are uncommon" (Behrenfeld, 2014).
 
@@ -50,7 +50,6 @@
 
 **Lead:** For these predators, finding food requires adaptability to a complex, ever-shifting environment — a suite of behavioral responses to a world that never sits still.
 **Development:**
-- The environment offers no landmarks, no terrain to guide a search — only invisible gradients of temperature, salinity, and chemistry, reorganized constantly by currents.
 - Light disappears quickly: in clear water, only 0.003% of surface light reaches 300 meters, limiting visibility.
 - A relatively common prey item like the pelagic shrimp may be distributed at a density of just one individual per 200–2,000 cubic meters of water.
 - And that prey is not waiting — it is either drifting with currents in patches that form and dissolve, or actively retreating from the surface into the dark.
