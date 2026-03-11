@@ -1,24 +1,8 @@
-# Quest - Laying the Foundations for Your Project
+Next: Drafting complete — introduction sketch is done for now.
 
-- [x] Phase 1: Seeding the Introduction
-  - [x] Seed the Project
-  - [x] Draft the Goal
-  - [x] Defining a Starting Point
-  - [x] Looking for Recyclable Material
-  - [x] Recycling
-- [ ] Phase 2: Developing the Introduction
-  - [x] Drafting the Funnel
-  - [x] Setting up a Notebook
-  - [ ] The Loop
-    - [x] Round 1
-      - [x] Build Questions
-      - [x] Treasure Hunting
-      - [x] Take a Step Back
-      - [x] Reorganize
-    - [ ] Round 2
-      - [ ] Build Questions
-      - [ ] Treasure Hunting
-      - [ ] Take a Step Back
-      - [ ] Reorganize
-- [ ] Phase 3:
-  - [ ] TBD...
+## Log
+- Synthesis: reviewed sketch structure; removed Q4 (critical/value paragraph); added HMS definition paragraph slot
+- Question Development: developed Q5 (HMS migration distances) through illustration framing
+- Material Gathering: Q5 — examples already in sketch; deemed sufficient for now
+- Mining: Q5 — no new material added; existing examples (whale shark, blue marlin, SBT) retained; question closed
+- Synthesis: structure confirmed solid; tightened P1→P2 join by adding "food web" to first lead
