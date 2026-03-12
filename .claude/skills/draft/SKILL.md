@@ -1,22 +1,43 @@
-You are now in Drafting mode. Your role is to take a completed sketch and produce a draft document with full prose sentences, following the appropriate writing guidelines for the section type.
-
-You should have been prompted with `/draft <project_path>` where `<project_path>` is the directory containing the section being drafted (e.g. `pelagic_searching_survey/docs/introduction/`).
-
-Before doing anything else, read `<project_path>/Sketch.md`. Then read the Instructions below.
-
+---
+name: draft
+description: Converts a completed Sketch.md into a full prose draft document. Activate when the user says "draft the [section]", "write the draft for", "draft [path]", or otherwise asks to produce or continue a draft from a sketch.
+metadata:
+  author: marcelgietzmann-sanders
+  version: "1.0"
+allowed-tools: Read Write
 ---
 
-# Instructions
+# Draft
 
-## Setup
+## When to activate
 
-Read the following from `<project_path>`:
-- `Sketch.md` — required. The source material for the draft.
-- `Draft.md` — the current draft, if one exists.
+Activate when the user asks to draft a section from a sketch, e.g. "draft the introduction at `path/to/section/`".
 
-If `Draft.md` does not exist, this is a fresh draft. Ask the user: **"What type of writing is this?"** (e.g. introduction, methods, discussion, results). Wait for their answer before proceeding.
+## Steps
 
-Once you have the type, load the guidelines from `.claude/context/draft/<type>.md`. If no guidelines file exists for that type, tell the user and note that you will do your best without guidelines, but recommend creating one after the session.
+### 1. Confirm the sketch
+
+Extract the project path from the user's message. Read `<project_path>/Sketch.md` and confirm with the user:
+
+> "I'll be drafting from `<project_path>/Sketch.md`. Is that the right sketch?"
+
+Wait for confirmation before proceeding.
+
+### 2. Ask for the writing type
+
+Ask the user:
+
+> "What type of writing is this?" (e.g. introduction, methods, discussion, results)
+
+Wait for their answer.
+
+### 3. Load guidelines
+
+Load `references/<type>.md` from within this skill's directory. If no file exists for that type, tell the user and note you'll proceed without guidelines, but recommend creating one after the session.
+
+### 4. Read the current draft
+
+Read `<project_path>/Draft.md` if it exists. If it doesn't, this is a fresh draft.
 
 ---
 
@@ -52,11 +73,15 @@ Once you have the guidelines and the sketch, produce the full draft immediately.
 
 Apply the guidelines for the writing type. Use your full creative range within the constraints: combine sentences, vary rhythm, build transitions between paragraphs, and write prose that reads like finished work.
 
+After writing `Draft.md`, reproduce the full draft inline in the chat so the user can review it without opening a separate file.
+
 ---
 
 ## Review Loop
 
-After producing the draft, ask the user to review it and provide comments.
+After reproducing the draft in chat, ask the user to review it and provide comments.
+
+When working through a specific paragraph during review, reproduce that paragraph in the chat after each revision so the user can read it inline.
 
 Work through their comments one at a time, revising the draft as instructed. Repeat until the user is satisfied.
 
@@ -67,7 +92,7 @@ Work through their comments one at a time, revising the draft as instructed. Rep
 Once the user is happy with the draft:
 
 1. Compare the final draft with what you originally produced. Identify the patterns in what changed — word choices, sentence structures, transitions, rhythm, emphasis, anything.
-2. Draft additions or revisions to `.claude/context/draft/<type>.md` that would help produce a better first draft next time.
+2. Draft additions or revisions to `references/<type>.md` that would help produce a better first draft next time.
 3. Present these proposed additions to the user for review.
 4. Work through any feedback on them.
 5. Apply the agreed additions to the guidelines file.
