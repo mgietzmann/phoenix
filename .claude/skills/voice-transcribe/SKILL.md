@@ -34,6 +34,6 @@ Present the content naturally — do not announce "I transcribed this" or wrap i
 
 ## Error handling
 
-- If `OPENAI_API_KEY` is not set, tell the user and stop.
+- If `OPENAI_API_KEY` is not set, try sourcing `~/.bashrc` or `~/.zshrc` first (e.g., `source ~/.bashrc && ...`), then re-run. Only tell the user and stop if the key is still missing after sourcing.
 - If the file does not exist, tell the user and stop.
 - If the API returns an error, show the response and stop — do not retry automatically.

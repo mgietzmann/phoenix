@@ -28,7 +28,7 @@
 
 **Lead:** At the horizontal scale, predators switch between two search modes depending on prey density.
 **Development:**
-- (Humphries, 2010)(Humphries, 2012) In prey-sparse, oligotrophic waters, marine predators like silky sharks and bigeye tuna adopt Lévy flights, characterized by clusters of small steps interspersed with occasional long-distance "jumps" to find new patches. When these same animals enter productive "hotspots" like continental shelves or thermal fronts, they switch to Brownian motion, a more uniform and intensive localized search.
+- (Humphries, 2010)(Humphries, 2012) When in prey-sparse, oligotrophic waters, marine predators like silky sharks and bigeye tuna adopt Lévy flights — clusters of small steps interspersed with occasional long-distance jumps to find new patches; when these same animals enter productive hotspots like continental shelves or thermal fronts, they switch to Brownian motion for intensive localized search. The key adaptation is the switching itself: reading environmental context and changing strategy accordingly.
 - (Gallagher, 2026) Blue sharks with high energy stores (plasma triglycerides) exhibit directed, "transient" behavior, ranging across the ocean to seek distant resource patches. Conversely, sharks with low energy reserves are often restricted to convoluted, "resident" movements as they search for food in their immediate vicinity
 
 **Lead:** Vertically, predators use structured diving behaviour to sample depth layers.
@@ -37,7 +37,7 @@
 - (Horton, 2025) Yellowfin exhibit spike dives that may represent attempts to gain navigational cues by sampling the water column.
 - (Queiroz, 2017) V-dives are likely used to search the water column quickly whereas U-dives seem to indicate foraging.
 
-**Lead:** Random search is not the only tool: predators can detect the chemical and hydrodynamic signatures of productive features at a distance, allowing for more directed approaches once within range.
+**Lead:** Random search is not the only tool: the same oceanographic features that concentrate prey also generate detectable signals — chemical gradients, thermal plumes, turbulence — that predators can follow to mount a directed approach.
 **Development:**
 - (Gardiner, 2007) Predators use their lateral line to detect the bulk flow and turbulence within these features. This allows for rheotaxis (orienting to the flow) and eddy chemotaxis (tracking the trail of flavored turbulence) to navigate within the feature
 - (Arostegui, 2022) Productive features like ACEs often exhibit higher levels of primary and secondary productivity, which create chemical gradients or odor plumes that predators can detect at a distance to find the feature

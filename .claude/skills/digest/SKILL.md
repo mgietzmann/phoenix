@@ -17,21 +17,17 @@ Activate when the user has a voice recording containing thoughts about a sketch 
 
 ## Steps
 
-### 1. Confirm sketch and audio
+### 1. Confirm sketches and audio
 
 Before doing anything, confirm with the user:
-- Which sketch are we working with? (the project path)
+- Which sketch(es) are we working with? (one or more project paths)
 - Which audio file are we digesting?
 
 If either is ambiguous, ask. Don't proceed until both are clear.
 
-### 2. Transcribe
+### 2. Transcribe and read sketches
 
-Use the `voice-transcribe` skill to pull the transcript into context.
-
-### 3. Read the sketch
-
-Read `Sketch.md` and `Questions.md` from the project path. Absorb the current state — the argument's shape, what's developed, what's thin, what questions are active — before forming any proposals.
+Kick off transcription (via the `voice-transcribe` skill) and read all `Sketch.md` and `Questions.md` files in parallel. Absorb the current state of each sketch — the argument's shape, what's developed, what's thin, what questions are active — before forming any proposals.
 
 ### 4. Propose changes
 
@@ -49,6 +45,10 @@ New questions to add to `Questions.md` (under New), updates to existing question
 For each proposed change, flag its source:
 - **Explicit** — the user said this directly in the recording
 - **Inferred** — implied by what was said; flag the reasoning so the user can accept or reject it
+
+**Only surface categories that have something to say.** If a sketch only needs new questions, skip A and B entirely — don't create empty sections. Proposals should be lean: one entry per real change, nothing more.
+
+**Material sourcing:** If a proposed bullet requires new citations, create a question to find that material rather than drafting a citation-free bullet. Only propose actual bullet text when the content can be written from what's already in the transcript or existing sketch material (e.g. transitional text, framing, structural scaffolding).
 
 Present all proposals before making any changes. Don't edit files yet.
 

@@ -25,6 +25,11 @@
 - (Bett, 2016) The Sequential Imprinting Hypothesis—a modification of the Olfactory Imprinting Hypothesis—proposes that juvenile fish do not just imprint on their natal water, but also on a series of "waypoints" along their route during their initial downstream migration
 - (Bett, 2016) Field studies where juvenile salmonids are transplanted from one location and released in another show that adults frequently return to the site of release rather than their original rearing site
 
+**Lead:** A positional map, however, only tells an animal where it is — not where to go; converting a map into a route requires a separate layer of directional knowledge, and how animals acquire this remains an open question.
+**Development:**
+- Having a precise sense of position is not the same as knowing a destination: an animal could be magnetically and chemically literate and still have no information about which direction to move.
+- Directional knowledge could be encoded genetically, built through experience by following environmental gradients until destinations become familiar, or acquired from conspecifics who already know the route.
+
 **Lead:** For schooling species, navigational knowledge may not be held by individuals but transmitted socially — dependent on experienced leaders whose loss can cause entire migration routes to collapse.
 **Development:**
 - (De Luca, 2014) In schooling species, navigation is a socially facilitated process guided by collective memory. The loss of these older, knowledgeable individuals through overfishing can cause the sudden collapse of traditional migratory routes, as seen when Atlantic bluefin tuna abruptly disappeared from the Norwegian Sea after their leaders and prey were exploited.
