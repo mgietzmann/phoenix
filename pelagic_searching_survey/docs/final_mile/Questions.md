@@ -2,6 +2,8 @@
 
 ## Developed
 
+## Answered
+
 - For large pelagic fish, which species have the clearest literature connecting eye morphology (size, photoreceptor arrangement, retinal heating) to the light environment or foraging depth that selected for it?
 - For large pelagic fish, which species have the clearest literature connecting olfactory sensitivity or detection threshold to the prey-detection context (school detection range, prey odor plume structure) that selected for it?
 - For large pelagic fish, which species have the clearest literature connecting acoustic sensitivity or inner ear morphology to the prey types or ecological contexts (e.g. low-frequency struggling prey, predator avoidance) that selected for it?

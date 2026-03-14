@@ -5,9 +5,13 @@
 - (Patterson, 2018) In the Indian Ocean, a single age-2 southern bluefin tuna was tracked for over four years, covering a staggering total of 111,883 km
 - (Wright, 2021) While some species are transoceanic, yellowfin tuna often show surprising site fidelity, remaining within 70 km of specific seamounts like Cardno and Bonaparte for over 100 days to forage.
 
-**Lead:** Migration is driven by a fundamental tension in the life history of large pelagic predators: the conditions that favour foraging are not the conditions that favour spawning.
+**Lead:** Migration is an adaptation to spatiotemporal variation in the pelagic environment: because for some species the conditions that best support foraging, spawning, and seasonal survival are not co-located. 
 **Development:**
-- (Relano, 2022) When marine predators are in a foraging phase, they target high-energy oceanographic features that aggregate prey biomass. In contrast to the nutrient-rich feeding grounds, many large pelagic species, particularly tunas, actively seek out oligotrophic (nutrient-poor) waters for spawning. This often necessitates migrations. 
+- One driver is the tension between foraging and spawning requirements: the conditions that favour each are in direct conflict, necessitating migration between them.
+- (Relano, 2022) When marine predators are in a foraging phase, they target high-energy oceanographic features that aggregate prey biomass. In contrast to the nutrient-rich feeding grounds, many large pelagic species, particularly tunas, actively seek out oligotrophic (nutrient-poor) waters for spawning. This often necessitates migrations.
+- Indeed, migration has been defined as “an adaptive response to spatiotemporal variation in resources that requires indi-viduals to detect and respond to long-range and noisy environmental gradients (Shaw, 2016) For example, juvenile southern bluefin tuna undergo large-scale cyclic migrations to identify abundant food sources and maximize their rapid growth phase.
+- Then there are refuge migrations  Organisms with refuge migrations have one primary habitat (where they do most of their foraging and reproduction) that they migrate away from seasonally to seek refuge from temporarily unfavorable conditions (Shaw, 2016)
+- Migrations are therefore an adaptation that allows animals to take better advantage of the differences across the pelagic environment. 
 
 **Lead:** Sustaining migrations of this scale — across thousands of kilometers of largely featureless open ocean — requires navigational machinery that is not yet fully understood.
 **Development:**
