@@ -11,22 +11,14 @@
 
 **Lead:** Behavioral experiments — exposing animals to controlled odor pulses or prey rinses under manipulated sensory conditions — have been the primary method for characterizing olfactory responses in HMS.
 **Development:**
-- (Gardiner, 2007) Data were derived from behavioral experiments with smooth dogfish sharks
 - (Gardiner, 2010) They analyzed video film records of behavioral responses to controlled odor pulses
 - (Gardiner, 2014) Data came from laboratory trials of three shark species with different senses experimentally blocked
 - (Atema, 1980) Data were derived from behavioral tests of captive tuna exposed to prey rinses
-
-**Lead:** The contribution of the lateral line has been isolated through the same sense-blocking behavioral trials used for olfaction, allowing researchers to separate hydrodynamic detection from other cues.
-**Development:**
-- (Gardiner, 2007) Data were derived from behavioral experiments with smooth dogfish sharks
-- (Gardiner, 2010) They analyzed video film records of behavioral responses to controlled odor pulses
-- (Gardiner, 2014) Data came from laboratory trials of three shark species with different senses experimentally blocked
 
 **Lead:** Visual capabilities have been investigated through two complementary approaches: anatomical study of eye structure and physiological measurement of retinal function.
 **Development:**
 - (Fritsches, 2003) Data came from an anatomical study of blue marlin eyes
 - (Fritsches, 2005) They used physiological measurements of flicker fusion frequency across a range of temperatures
-- (Gardiner, 2007) Data were derived from behavioral experiments with smooth dogfish sharks
 - (Gardiner, 2010) They analyzed video film records of behavioral responses to controlled odor pulses
 - (Gardiner, 2014) Data came from laboratory trials of three shark species with different senses experimentally blocked
 - (Somiya, 2000) Data came from anatomical and chemical analysis of retinal tapeta
@@ -75,3 +67,11 @@
 - (Braun, 2019) Data came from 15 blue sharks tagged with SPOT and miniPAT tags, integrated with satellite sea surface height maps
 - (Braun, 2023) This study synthesized electronic tag data, global shipboard acoustics surveys, and ocean models
 - (Reese, 2011) Data came from airborne lidar surveys and concurrent sea surface temperature map
+
+**Lead:** No single method yields a complete picture of how HMS search; these traditions are complementary by necessity, each revealing a scale of organization the others cannot access, and each has become possible only with the technology of its era.
+**Development:**
+- Sensory and behavioral work establishes what individual animals can detect — the hardware available to the searching animal — but cannot follow animals at sea
+- Mathematical modeling proposes how animals should move given that hardware, but operates on theory in the absence of direct observation at scale
+- Satellite tracking observes movement across ocean basins, but without sensory and theoretical context cannot interpret what drives the patterns it records
+- Each tradition has required its own generation of technology: electrode and behavioral apparatus for sensory work; computational capacity for stochastic and evolutionary modeling; satellite miniaturization and remote sensing for tracking
+- Together, they provide complementary answers to complementary questions — what animals can detect, how they should move, and where they actually go — and no account of HMS searching behavior is complete without all three

@@ -50,6 +50,7 @@ Read `<project_path>/Draft.md` if it exists. If it doesn't, this is a fresh draf
 3. **Paragraph order is fixed.** The sequence of paragraphs must match the sketch.
 4. **Full prose.** Replace all bullet points with complete, flowing sentences. The development section of each paragraph becomes real prose.
 5. **Leads may be revised** — but only where flow or cohesion requires it. The substance of the lead must remain the same.
+6. **The Lead is the first sentence — don't repeat it in Development.** The Lead and Development fields together form a single paragraph. The Development contains only what follows the lead sentence. Writing the lead again at the start of Development produces a redundant opening when the paragraph is read as prose.
 
 ### Format
 
