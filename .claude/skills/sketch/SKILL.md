@@ -1,10 +1,9 @@
 ---
 name: sketch
-description: Explains what a sketch is and how to interact with one. A sketch is a structured fact/idea gathering artifact in preparation for drafting, consisting of a Sketch.md (topic sentences with development bullets) and a Questions.md (questions in three states — new, developed, answered). Activate when working with, updating, or building a sketch; when the user references Sketch.md or Questions.md; or when a workflow involves developing material before drafting.
+description: Explains what a sketch is and how to interact with one. A sketch is a structured fact/idea gathering artifact in preparation for drafting, consisting of a Sketch.md (topic sentences with collapsible development blocks) and a Questions.md (questions in three states — new, developed, answered). Activate when working with, updating, or building a sketch; when the user references Sketch.md or Questions.md; or when a workflow involves developing material before drafting.
 metadata:
   author: marcelgietzmann-sanders
-  version: "1.0"
-allowed-tools: Read Write
+  version: "2.0"
 ---
 
 # Sketch
@@ -18,22 +17,33 @@ A sketch is a structured artifact for gathering facts, generating ideas, and syn
 
 ## Sketch.md
 
-`Sketch.md` is a sequence of paragraphs-in-waiting. Each paragraph consists of a **Lead** (a single, concrete topic sentence — the commitment the paragraph is making) and **Development** (bullet points of facts, ideas, and supporting material that will eventually become prose).
+`Sketch.md` is a sequence of paragraphs-in-waiting, organized under section headers. Each paragraph consists of a **lead** (a plain topic sentence — the commitment the paragraph is making) followed immediately by its **development** in an indented blockquote.
+
+The document uses markdown headers (`##`, `###`) to organize sections and subsections. Within each section, paragraphs are stacked with blank lines between them. Both headers and blockquotes are collapsible in VS Code, which allows the writer to focus on a section or level of detail at a time.
 
 ### Format
 
 ```
-**Lead:** [topic sentence — a single, concrete claim]
-**Development:**
-- [development sentence or fact]
-- [development sentence or fact]
+## Section Title
+
+### Subsection Title (if needed)
+
+[topic sentence — a single, concrete claim]
+> Supporting
+> - [development sentence or fact]
+> - [development sentence or fact]
+
+
+[next topic sentence]
+> Supporting
+> - [development sentence or fact]
 ```
 
-Each `**Lead:**` is a paragraph commitment. `**Development:**` bullets are the raw material — gathered evidence, ideas, citations — not yet prose, but ready to become it. Paragraphs are separated by `---`.
+The topic sentence is plain text — no `**Lead:**` prefix. The development block opens with `> Supporting` and each bullet is `> - ...`. There are no `---` separators between paragraphs; blank lines and collapsible blockquotes do the work.
 
 ### Rules
 
-- Every Lead must make a claim, not just name a topic.
+- Every lead must make a claim, not just name a topic.
 - Development bullets are for capture, not style — rough is fine.
 - Order of paragraphs reflects the intended sequence of the argument.
 - Do not write prose in `Sketch.md`. That belongs in `Draft.md`.
@@ -86,7 +96,7 @@ When working with a sketch in any workflow:
 
 1. **Read both files first.** Always read `Sketch.md` and `Questions.md` before making any changes. The current state of both files is your ground truth.
 
-2. **Updating Sketch.md.** Add, remove, reorder, or revise Lead sentences as needed. Add development bullets under the relevant Lead. Never write prose — only topic sentences and bullet-point material. Never disturb existing development bullets unless the Lead they belong to has changed substantially.
+2. **Updating Sketch.md.** Add, remove, reorder, or revise lead sentences as needed. Add development bullets under the relevant lead. Never write prose — only topic sentences and bullet-point material. Never disturb existing development bullets unless the lead they belong to has changed substantially.
 
 3. **Updating Questions.md.** Move questions between states as they progress (New → Developed → Answered). When a question is answered, record the answer inline. New questions can be added to the New section at any time.
 
