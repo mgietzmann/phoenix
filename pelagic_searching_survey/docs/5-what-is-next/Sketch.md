@@ -1,3 +1,6 @@
+**Lead:** Significant opportunities remain open across this field: in physiological monitoring, observational infrastructure, environmental stressors, and integrative study design.
+**Development:**
+
 **Lead:** Tracking tells us where HMS go, but not what they are experiencing — closing that gap requires new tools to monitor physiological state and foraging success in real time.
 **Development:**
 - (Gallagher, 2026) Future tools are needed for repeated sampling of blood or metabolic indicators while an animal is being tracked to understand how energy reserves fluctuate during search cycles

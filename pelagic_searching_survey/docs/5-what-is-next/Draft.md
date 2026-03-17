@@ -1,0 +1,20 @@
+**Type**: Synthetic Exposition
+
+**Lead:** Significant opportunities remain open across this field: in physiological monitoring, observational infrastructure, environmental stressors, and integrative study design.
+**Development:**
+
+**Lead:** Tracking tells us where HMS go, but not what they are experiencing — closing that gap requires new tools to monitor physiological state and foraging success in real time.
+**Development:**
+The movement record alone cannot answer whether a dive reflected hunger, thermal refuge-seeking, or opportunistic encounter. Gallagher (2026) calls for tools capable of repeated sampling of blood or metabolic indicators during active tracking, so that fluctuations in energy reserves can be mapped against search cycles rather than inferred after the fact. Technologies such as oxygen sensor tags, animal-borne video, and gastric pH meters have been proposed to directly quantify foraging events at depth and to disentangle whether dives are driven by thermal preferences or prey availability (Queiroz, 2017; Braun, 2023; Andrzejaczek, 2023). Together, these approaches would transform tracking from a record of position into a record of experience.
+
+**Lead:** The tools we already have — satellite tags, occurrence datasets, habitat models — need to be extended in scope and sharpened in resolution to better characterize pelagic search behavior.
+**Development:**
+One priority is developing smaller, more robust satellite tags that can be attached to the diverse life stages and species currently too small to track (Filous, 2022; Queiroz, 2019). Beyond tagging, there is an urgent need for more fishery-independent occurrence data to identify the predator hotspots that likely structure search effort (Queiroz, 2019). Habitat models, meanwhile, face a resolution problem: existing approaches tend to predict depth occurrence without capturing variations in biomass or community composition across scattering layers, flattening distinctions between shallow and deep-bathypelagic assemblages that may drive very different foraging outcomes (Braun, 2023). Resolving these gaps would bring the observational infrastructure closer to the ecological complexity it aims to describe — though a separate challenge operates at the level of the animals themselves.
+
+**Lead:** How environmental stressors — pollution, acidification — affect the sensory systems HMS rely on for navigation and prey detection requires further investigation.
+**Development:**
+Bett (2016) identified a critical research gap in understanding how toxins and ocean acidification impair the olfactory systems of migrating fish and the behavioral responses those systems support. If pollution degrades the chemical signals animals use to locate prey and spawning grounds, the consequences extend beyond individual physiology to the reliability of cue-based navigation itself — a dimension that the wider tracking and habitat-modeling literature has largely left unaddressed.
+
+**Lead:** The greatest opportunity lies in synthesis: tracing a single species' full search strategy — from sensory detection through navigational decision to foraging outcome — across the range of cues and conditions it actually encounters.
+**Development:**
+The studies reviewed here illustrate what individual methodological traditions have made possible, but very few offer a complete picture for any one species. Work on olfactory cues, for instance, has remained largely odorant-specific; a corresponding need exists to evaluate the relative importance of imprinted, conspecific, and non-olfactory environmental cues through integrated rather than narrowly targeted approaches (Bett, 2016; Lennox, 2019). What is missing is not additional evidence within any single tradition, but a study design that maps the full arc — from initial sensory detection through navigational decision to foraging outcome — across the environmental variability a species actually encounters. That synthesis remains the field's most consequential open task.
