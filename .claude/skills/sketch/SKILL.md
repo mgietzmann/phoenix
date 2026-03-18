@@ -3,7 +3,7 @@ name: sketch
 description: Explains what a sketch is and how to interact with one. A sketch is a structured fact/idea gathering artifact in preparation for drafting, consisting of a Sketch.md (topic sentences with collapsible development blocks) and a Questions.md (questions in three states — new, developed, answered). Activate when working with, updating, or building a sketch; when the user references Sketch.md or Questions.md; or when a workflow involves developing material before drafting.
 metadata:
   author: marcelgietzmann-sanders
-  version: "3.0"
+  version: "3.2"
 ---
 
 # Sketch
@@ -24,7 +24,21 @@ The document uses markdown headers (`##`, `###`) to organize sections and subsec
 ### Supported object types
 
 - **`[paragraph]`** — a prose argument unit. Consists of a topic sentence (the claim the paragraph is making) followed by a `> Supporting` blockquote with development bullets.
+- **`[table]`** — a schema or data structure unit. Consists of a description of what the table represents, followed by the markdown table as the body, then an optional `> Notes` blockquote with clarifying notes.
+- **`[code]`** — a code example unit. Consists of a language identifier and description on the same line as the tag, followed by a fenced code block.
 - **`[references]`** — a reference list. The file path to the `.bib` file containing the raw citation data follows the tag on the same line.
+
+### Annotations
+
+Annotations are inline markers that can appear anywhere in the sketch — before any object or before any development bullet — to modify how that content is treated.
+
+- **`[hidden]`** — marks content that has been captured but should not appear in the draft. It is a suppression signal, not a communication type. It can prefix any object (hiding the whole thing) or any development bullet (hiding just that detail). The content remains in the sketch for completeness and future reference; the drafter treats anything marked `[hidden]` as invisible.
+
+```
+[hidden] [paragraph] a whole paragraph that should not be drafted
+
+> - [hidden] a single bullet that should not be drafted
+```
 
 ### Format
 
@@ -39,14 +53,24 @@ The document uses markdown headers (`##`, `###`) to organize sections and subsec
 > - [development sentence or fact]
 
 
-[paragraph] next topic sentence
-> Supporting
-> - [development sentence or fact]
+[table] description of what the table represents
+| col | col |
+| --- | --- |
+| val | val |
+> Notes
+> - [clarifying note]
+
+
+[code] language — description of what the example illustrates
+```language
+...code...
+```
+
 
 [references] path/to/references.bib
 ```
 
-The type tag is always the first thing on the line. For `[paragraph]`, the topic sentence follows on the same line. For `[references]`, the file path follows on the same line. There are no `---` separators between objects; blank lines and collapsible blockquotes do the work.
+The type tag is always the first thing on the line. For `[paragraph]`, the topic sentence follows on the same line. For `[table]`, the description follows on the same line and the markdown table comes immediately after. For `[code]`, the language and description follow on the same line and the fenced code block comes immediately after. For `[references]`, the file path follows on the same line. There are no `---` separators between objects; blank lines and collapsible blockquotes do the work.
 
 ### Rules
 
