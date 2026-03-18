@@ -3,7 +3,7 @@ name: sketch
 description: Explains what a sketch is and how to interact with one. A sketch is a structured fact/idea gathering artifact in preparation for drafting, consisting of a Sketch.md (topic sentences with collapsible development blocks) and a Questions.md (questions in three states — new, developed, answered). Activate when working with, updating, or building a sketch; when the user references Sketch.md or Questions.md; or when a workflow involves developing material before drafting.
 metadata:
   author: marcelgietzmann-sanders
-  version: "2.0"
+  version: "3.0"
 ---
 
 # Sketch
@@ -17,9 +17,14 @@ A sketch is a structured artifact for gathering facts, generating ideas, and syn
 
 ## Sketch.md
 
-`Sketch.md` is a sequence of paragraphs-in-waiting, organized under section headers. Each paragraph consists of a **lead** (a plain topic sentence — the commitment the paragraph is making) followed immediately by its **development** in an indented blockquote.
+`Sketch.md` is a sequence of typed objects, organized under section headers. Every object begins with a **type tag** in square brackets that declares what kind of content it is. The type tag tells any tool processing the sketch what kind of output each entry should produce.
 
-The document uses markdown headers (`##`, `###`) to organize sections and subsections. Within each section, paragraphs are stacked with blank lines between them. Both headers and blockquotes are collapsible in VS Code, which allows the writer to focus on a section or level of detail at a time.
+The document uses markdown headers (`##`, `###`) to organize sections and subsections. Objects are stacked with blank lines between them. Both headers and blockquotes are collapsible in VS Code, which allows the writer to focus on a section or level of detail at a time.
+
+### Supported object types
+
+- **`[paragraph]`** — a prose argument unit. Consists of a topic sentence (the claim the paragraph is making) followed by a `> Supporting` blockquote with development bullets.
+- **`[references]`** — a reference list. The file path to the `.bib` file containing the raw citation data follows the tag on the same line.
 
 ### Format
 
@@ -28,24 +33,27 @@ The document uses markdown headers (`##`, `###`) to organize sections and subsec
 
 ### Subsection Title (if needed)
 
-[topic sentence — a single, concrete claim]
+[paragraph] topic sentence — a single, concrete claim
 > Supporting
 > - [development sentence or fact]
 > - [development sentence or fact]
 
 
-[next topic sentence]
+[paragraph] next topic sentence
 > Supporting
 > - [development sentence or fact]
+
+[references] path/to/references.bib
 ```
 
-The topic sentence is plain text — no `**Lead:**` prefix. The development block opens with `> Supporting` and each bullet is `> - ...`. There are no `---` separators between paragraphs; blank lines and collapsible blockquotes do the work.
+The type tag is always the first thing on the line. For `[paragraph]`, the topic sentence follows on the same line. For `[references]`, the file path follows on the same line. There are no `---` separators between objects; blank lines and collapsible blockquotes do the work.
 
 ### Rules
 
-- Every lead must make a claim, not just name a topic.
+- Every object must have an explicit type tag. There are no untagged entries.
+- Every `[paragraph]` lead must make a claim, not just name a topic.
 - Development bullets are for capture, not style — rough is fine.
-- Order of paragraphs reflects the intended sequence of the argument.
+- Order of objects reflects the intended sequence of the argument.
 - Do not write prose in `Sketch.md`. That belongs in `Draft.md`.
 
 ---
@@ -96,7 +104,7 @@ When working with a sketch in any workflow:
 
 1. **Read both files first.** Always read `Sketch.md` and `Questions.md` before making any changes. The current state of both files is your ground truth.
 
-2. **Updating Sketch.md.** Add, remove, reorder, or revise lead sentences as needed. Add development bullets under the relevant lead. Never write prose — only topic sentences and bullet-point material. Never disturb existing development bullets unless the lead they belong to has changed substantially.
+2. **Updating Sketch.md.** Add, remove, reorder, or revise objects as needed. Add development bullets under the relevant `[paragraph]` lead. Never write prose — only topic sentences and bullet-point material. Never disturb existing development bullets unless the lead they belong to has changed substantially. All entries must have explicit type tags.
 
 3. **Updating Questions.md.** Move questions between states as they progress (New → Developed → Answered). When a question is answered, record the answer inline. New questions can be added to the New section at any time.
 

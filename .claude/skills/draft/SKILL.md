@@ -3,7 +3,7 @@ name: draft
 description: Drafts a section of a document by converting the corresponding section of Sketch.md into prose and inserting it into Draft.md. Activate when the user says "draft the [section]", "write the draft for", "draft [path]", or otherwise asks to produce or continue a draft from a sketch.
 metadata:
   author: marcelgietzmann-sanders
-  version: "2.0"
+  version: "3.0"
 ---
 
 # Draft
@@ -30,11 +30,19 @@ Ask the user:
 
 Wait for their answer.
 
-### 3. Load guidelines
+### 3. Ask for the output format
+
+Ask the user:
+
+> "What output format?" (default: markdown)
+
+Common options: markdown, LaTeX. If the user doesn't specify, proceed with markdown.
+
+### 4. Load guidelines
 
 Load `references/<type>.md` from within this skill's directory. If no file exists for that type, tell the user and note you'll proceed without guidelines, but recommend creating one after the session.
 
-### 4. Read the current draft
+### 5. Read the current draft
 
 Read `<project_path>/Draft.md` if it exists. Identify whether the target section is already present in the draft. If it is, you will replace it; if it isn't, you will add it.
 
@@ -42,18 +50,28 @@ Read `<project_path>/Draft.md` if it exists. Identify whether the target section
 
 ## Creating the Draft
 
-### Identifying the section in Sketch.md
+### Identifying objects in Sketch.md
 
-The sketch is organized with markdown headers (`##`, `###`). Locate the header that matches the section the user named and extract all paragraphs under it (down to, but not including, the next same-level or higher header). Each paragraph is a plain lead sentence followed by a `> Supporting` blockquote with development bullets.
+The sketch is organized with markdown headers (`##`, `###`). Locate the header that matches the section the user named and extract all objects under it (down to, but not including, the next same-level or higher header).
+
+Each object begins with a type tag: `[paragraph]`, `[references]`, etc. Process each object according to its type (see Object Rendering below).
 
 ### Core Rules
 
 1. **No new content.** You cannot add facts, opinions, or ideas not present in the sketch section. The sketch is your only raw material.
 2. **No removal of content.** Every fact and point in the sketch section must appear in the draft.
-3. **Paragraph order is fixed.** The sequence of paragraphs must match the sketch.
-4. **Full prose.** The lead sentence opens the paragraph; the development bullets become the flowing sentences that follow it. The result is a single, complete paragraph per sketch paragraph.
+3. **Object order is fixed.** The sequence of objects must match the sketch.
+4. **Full prose for paragraphs.** The lead sentence opens the paragraph; the development bullets become the flowing sentences that follow it. The result is a single, complete paragraph per `[paragraph]` object.
 5. **Leads may be revised** — but only where flow or cohesion requires it. The substance of the lead must remain the same.
 6. **Do not repeat the lead.** The lead opens the paragraph; the development prose continues from it. Never restate the lead at the start of the development text.
+
+### Object Rendering
+
+**`[paragraph]`** — render as prose. The lead sentence opens the paragraph; development bullets become the flowing sentences that follow.
+
+**`[references]`** — read the `.bib` file at the path specified in the sketch entry. Render the references according to the output format:
+- *markdown*: a formatted reference list (author, year, title, journal, etc.), one entry per line
+- *LaTeX*: `\bibliography{<filename>}` and `\bibliographystyle{<style>}` commands
 
 ### Format
 
@@ -69,9 +87,13 @@ The sketch is organized with markdown headers (`##`, `###`). Locate the header t
 ### Subsection Title
 
 [Paragraph...]
+
+## References
+
+[Formatted reference list or LaTeX bibliography command]
 ```
 
-There are no `**Lead:**` or `**Development:**` labels in the draft. It is clean prose under headers.
+There are no `**Lead:**` or `**Development:**` labels in the draft. It is clean prose and rendered objects under headers.
 
 ### Inserting into Draft.md
 
