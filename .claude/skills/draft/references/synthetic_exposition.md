@@ -50,8 +50,11 @@ Examples can open a paragraph, but only if they are explicit enough to carry the
 
 List-like exposition comes from paragraphs that announce their own topic without connecting to what preceded them. Leads, closing sentences, and explicit transition sentences are all available tools to build flow — use whichever fits the prose. Transition sentences may be added freely as long as they don't introduce facts or claims not in the sketch; logical bridges and framing relationships between ideas are fair game.
 
+The most effective technique is to embed the cross-paragraph connection directly in the lead sentence itself, so the transition and the topic announcement happen in the same clause. This is stronger than a separate transition sentence, which can feel like throat-clearing before the paragraph begins.
+
 **Avoid:** Each paragraph opening cold with its own topic sentence, producing a sequence that reads like an enumeration.
 **Prefer:** Leads that encode a relationship to the preceding paragraph ("not all concentrating features are fixed to geography..."), closing sentences that pivot forward ("but exploiting this predictability requires first finding the layer"), or brief transitional sentences between paragraphs.
+**Prefer (embedded transition):** "Climate change also presents a risk as the coupling between HMS search strategies and specific oceanographic structures means that…" — the connection to the preceding paragraph and the new topic are announced together, not in sequence.
 
 ---
 
@@ -70,3 +73,21 @@ When a paragraph covers many examples drawn from a larger literature, signal exp
 
 **Avoid:** A paragraph that lists every study in sequence with no indication that the literature extends beyond what is cited.
 **Prefer:** Open with "The studies reviewed here illustrate the range of what this approach has made possible" or close with "These examples are illustrative rather than exhaustive — the literature extends well beyond this review."
+
+---
+
+## 10. Close introductory paragraphs with a roadmap sentence
+
+When a section opens with an overview paragraph that introduces multiple traditions, phases, or categories, close it with a sentence that tells the reader what's coming. This prevents the accumulating paragraphs from feeling like an unannounced list and gives the reader a frame before they encounter the detail.
+
+**Avoid:** An opening paragraph that introduces three traditions and then ends — leaving the reader to discover the structure as paragraphs arrive.
+**Prefer:** "We shall summarize each in turn." or "Each is treated in what follows."
+
+---
+
+## 9. Signal the paragraph's logical role in the lead
+
+When a paragraph functions as an example, a conclusion, a hypothesis, or a contrast, say so at the top. Markers like "For example," "That is," and "One intriguing hypothesis is that" make the argumentative structure visible to the reader before they encounter the evidence. Without them, paragraphs can read as a sequence of parallel claims rather than a building argument.
+
+**Avoid:** "For some schooling species, navigational knowledge may not be held by individuals but transmitted socially…" *(the paragraph's status as a hypothesis is buried)*
+**Prefer:** "One intriguing hypothesis is that navigational knowledge can be transmitted socially." *(signals up front that this is speculative, not established)*
