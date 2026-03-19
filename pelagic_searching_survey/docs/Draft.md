@@ -2,6 +2,10 @@
 
 ## Abstract
 
+The open ocean is one of the most challenging environments in which to find food: prey is sparse, patchily distributed, and concentrated at ephemeral features governed by ocean physics. At the top of this food web sit a set of highly migratory species (HMS) — billfish, tunas, and pelagic sharks — that must solve this search problem across entire ocean basins.
+
+We synthesize HMS prey-finding across three hierarchical levels — basin-scale migration, regional search, and final-mile sensory targeting — alongside the methodological traditions that assembled this picture. The picture that emerges has direct practical stakes, from the demographic erosion of socially held route knowledge to climate-disrupted oceanographic cues and pollution-impaired sensory systems. Yet the picture remains a collage, assembled from studies of different species at different scales leaving synthesis within a single species an open opportunity.
+
 ## Introduction
 
 The pelagic environment — the open ocean's entire water column — is the largest habitat on Earth. The oceans cover 71% of Earth's surface, but unlike terrestrial habitats, the pelagic extends in three dimensions with an average depth of around 3,800 meters (Lalli, 2006). That vertical extent transforms the ocean's already vast footprint into a volume of habitable space roughly 300 times greater than all land and freshwater combined (Lalli, 2006). For a sense of scale: the continental shelves — the coastal fringes that border the world's landmasses — represent just 8% of the total ocean surface, yet their total area is roughly equal to that of Europe and South America combined (Lalli, 2006). The open ocean beyond those shelves is enormous.
@@ -126,7 +130,7 @@ However it is our opinion that the greatest opportunity lies in synthesis: traci
 
 ## Conclusion
 
-
+This review set out to build a coherent picture of HMS prey-finding spanning ocean basin to individual prey item — and the picture that has emerged is hierarchical: basin-scale migration delivers the animal to a foraging region, regional search locates productive structure within it, and final-mile targeting closes on individual prey through a sequential deployment of sensory modalities, each level requiring a distinct suite of behavioural and sensory machinery calibrated to a different spatial scale. The three methodological traditions that assembled this picture map onto the same structure: sensory biology illuminated the final mile, mathematical modelling formalised the logic of regional search, and satellite tracking and remote sensing made migration and large-scale search directly observable. Yet the picture remains a collage — assembled from studies of different species at different stages in this hierarchy — and what the field has yet to produce is a study that stitches these levels together within a single species. The toolkit to do so now exists; that synthesis is within methodological reach.
 
 ## References
 

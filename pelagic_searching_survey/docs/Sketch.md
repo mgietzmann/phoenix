@@ -1,5 +1,9 @@
 # Searching the Seas - Finding Prey as a Highly Migratory Species
 
+## Abstract
+
+[abstract]
+
 ## Introduction
 
 [paragraph] The pelagic environment — the open ocean's entire water column — is the largest habitat on Earth, and like all habitats, it sustains a food web.
@@ -462,6 +466,14 @@
 
 
 ## Conclusion
+
+[paragraph] This review set out to build a coherent picture of HMS prey-finding spanning ocean basin to individual prey item, and of the methodologies that have made that picture possible.
+> Supporting
+> - HMS navigate this challenge through a nested hierarchy of behaviour: basin-scale migration delivers the animal to a foraging region; regional search locates productive structure within it; and final-mile targeting closes on individual prey through a sequential deployment of sensory modalities.
+> - This demonstrates that these animals are using a whole suite of behavioral and sensory machinery calibrated to the various scales of their ocean environment
+> - This picture arose from three methodological traditions: sensory biology illuminated the final mile; mathematical modeling formalized the logic of regional search; and satellite tracking and remote sensing made migration and large-scale search directly observable
+> - However the picture we now have is a collage - assembled from studies of different species at different stages in this hierarchy. What remains as an opportunity is stitching it all together coherently across individual species.
+> - The toolkit to do so now exists; that synthesis is within methodological reach.
 
 ## References
 

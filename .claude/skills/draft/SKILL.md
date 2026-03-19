@@ -28,7 +28,7 @@ Ask the user:
 
 > "What type of writing is this?" (e.g. introduction, methods, discussion, results)
 
-Wait for their answer.
+**Exception:** if the section being drafted is `[abstract]` (no topic sentence, no supporting bullets), infer the type as `abstract` automatically and skip this question.
 
 ### 3. Ask for the output format
 
@@ -58,7 +58,7 @@ Each object begins with a type tag: `[paragraph]`, `[references]`, etc. Process 
 
 ### Core Rules
 
-1. **No new content.** You cannot add facts, opinions, or ideas not present in the sketch section. The sketch is your only raw material.
+1. **No new content.** You cannot add facts, opinions, or ideas not present in the sketch section. The sketch is your only raw material. **Exception: `[abstract]` sections** — these are synthesized from the finished draft (see Object Rendering).
 2. **No removal of content.** Every fact and point in the sketch section must appear in the draft.
 3. **Object order is fixed.** The sequence of objects must match the sketch.
 4. **Full prose for paragraphs.** The lead sentence opens the paragraph; the development bullets become the flowing sentences that follow it. The result is a single, complete paragraph per `[paragraph]` object.
@@ -68,6 +68,8 @@ Each object begins with a type tag: `[paragraph]`, `[references]`, etc. Process 
 ### Object Rendering
 
 **`[paragraph]`** — render as prose. The lead sentence opens the paragraph; development bullets become the flowing sentences that follow.
+
+**`[abstract]`** — this object has no sketch content. Instead, read the full `Draft.md` (excluding any existing abstract placeholder) and synthesize a self-contained abstract from the finished sections. Apply the abstract guidelines. This is the one object type where the source material is the draft, not the sketch.
 
 **`[references]`** — read the `.bib` file at the path specified in the sketch entry. Render the references according to the output format:
 - *markdown*: a formatted reference list (author, year, title, journal, etc.), one entry per line
