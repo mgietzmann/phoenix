@@ -35,6 +35,10 @@ Prefer precise verbs over vague ones:
 - Instead of "handles", "manages", "deals with": use "maps", "detects", "records", "retrieves", "pins", "tags"
 - Instead of passive constructions that hide the actor: name what performs the action
 
+## Length and elaboration
+
+Prefer concise paragraphs. State the essential role, behavior, or mechanism and stop — do not unpack every consequence or add closing synthesis sentences that restate what the structure already implies. Trust the reader to draw inferences.
+
 ## What to avoid
 - Restating the lead as the first sentence of development
 - Vague motivation ("this is important because it helps")

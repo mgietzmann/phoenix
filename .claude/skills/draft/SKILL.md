@@ -113,6 +113,8 @@ Insert the following at the corresponding position in `Draft.md`:
 
 The figure description is prose, written to the same standard as the rest of the draft. It should tell a reader who has not yet looked at the diagram what it shows and what to take from it.
 
+**`[enumeration]`** — render as a lead sentence followed by a markdown list. The lead introduces the set; each development bullet becomes a list item, with the bolded name of the item followed by an em dash and a concise description. Use this type when the sketch content is a set of named, parallel items that a reader would scan rather than read linearly.
+
 **`[references]`** — read the `.bib` file at the path specified in the sketch entry. Render the references according to the output format:
 - *markdown*: a formatted reference list (author, year, title, journal, etc.), one entry per line
 - *LaTeX*: `\bibliography{<filename>}` and `\bibliographystyle{<style>}` commands

@@ -26,6 +26,7 @@ The document uses markdown headers (`##`, `###`) to organize sections and subsec
 - **`[paragraph]`** — a prose argument unit. Consists of a topic sentence (the claim the paragraph is making) followed by a `> Supporting` blockquote with development bullets.
 - **`[table]`** — a schema or data structure unit. Consists of a description of what the table represents, followed by the markdown table as the body, then an optional `> Notes` blockquote with clarifying notes.
 - **`[code]`** — a code example unit. Consists of a language identifier and description on the same line as the tag, followed by a fenced code block.
+- **`[enumeration]`** — a named list unit. Consists of a lead sentence introducing the set, followed by a `> Supporting` blockquote where each bullet is a named, parallel item. Use when the content is a set of distinct items a reader would scan rather than read linearly.
 - **`[references]`** — a reference list. The file path to the `.bib` file containing the raw citation data follows the tag on the same line.
 
 ### Annotations
