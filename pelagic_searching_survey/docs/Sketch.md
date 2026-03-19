@@ -80,6 +80,15 @@
 
 ## How Highly Migratory Species Find Food
 
+[diagram] The hierarchy of search.
+> Notes
+> - Three levels connected by directed arrows: Migration → Searching → The Final Mile
+> - Migration (~1,000s km): sub-nodes — magnetic map, olfactory imprinting, social route knowledge; group label "Navigation cues"
+> - Searching (10–100s km): strategies only, not features — Lévy / Brownian switching, vertical dive sampling, directed approach; group label "Strategies"
+> - The Final Mile (<1 km): senses — Sound (longer range), Olfaction (longer range), Vision; group label "Senses"
+> - Edge labels: "delivers animal to foraging region" (Migration→Searching), "locates productive feature" (Searching→Final Mile)
+> - Left scale bracket spanning all three levels labelled "ocean basin → individual prey"
+
 ### Migration
 
 [paragraph] At the largest scale, HMS are, by definition, migratory animals — capable of crossing entire ocean basins between the foraging grounds and spawning areas that define their life cycle.

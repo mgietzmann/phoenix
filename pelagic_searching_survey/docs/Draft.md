@@ -26,6 +26,10 @@ This paper synthesizes what is known about prey-finding for these species. It lo
 
 ## How Highly Migratory Species Find Food
 
+![The hierarchy of search](figures/hierarchy_of_search.svg)
+
+*Figure 1: The three levels at which HMS solve the prey-finding problem — migration, regional searching, and final-mile sensory targeting — nest within one another across orders of magnitude of spatial scale. Each level delivers the animal to the next problem: basin-scale navigation brings it to a foraging region; search strategies and oceanographic features narrow it to a productive patch; a sequential deployment of sound, olfaction, and vision closes the final distance to individual prey.*
+
 ### Migration
 
 At the largest scale, HMS are, by definition, migratory animals — capable of crossing entire ocean basins between the foraging grounds and spawning areas that define their life cycle. A few examples are sufficient to provide a sense of the scale involved. One whale shark named "Rio Lady" sprinted 7,213 km in 150 days, crossing the equator from the Yucatan Peninsula to the Mid-Atlantic Ridge (Hueter, 2013). Another fish, this time a 261 kg blue marlin, maintained a displacement speed of 73.8 km per day to cover 8,853 km from Puerto Rico to the coast of Angola (Andrzejaczek, 2023). In the Indian Ocean, a southern bluefin tuna was tracked for over four years, covering a cumulative total of 111,883 km (Patterson, 2018). Yet migration is not a continuous process. Some yellowfin tuna, for example, remain within 70 km of specific seamounts like Cardno and Bonaparte for over 100 days to forage before moving on (Wright, 2021).

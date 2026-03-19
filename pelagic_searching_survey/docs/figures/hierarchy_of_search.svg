@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 590" width="720" height="590">
+
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 9 3.5, 0 7" fill="#5a6a7a"/>
+    </marker>
+    <marker id="arrow-sm" markerWidth="7" markerHeight="6" refX="6" refY="3" orient="auto">
+      <polygon points="0 0, 7 3, 0 6" fill="#8a9aaa"/>
+    </marker>
+  </defs>
+
+  <style>
+    text { font-family: sans-serif; }
+    .title  { font-size: 16px; font-weight: bold; fill: #1a1a2e; }
+    .node-main { fill: #d0d8e4; stroke: #5a6a7a; stroke-width: 2; }
+    .node-sub  { fill: #e8eef5; stroke: #8a9aaa; stroke-width: 1.5; }
+    .lbl-main  { font-size: 14px; font-weight: bold; fill: #1a1a2e; text-anchor: middle; dominant-baseline: middle; }
+    .lbl-sub   { font-size: 12px; fill: #1a1a2e; text-anchor: middle; dominant-baseline: middle; }
+    .lbl-edge  { font-size: 11px; fill: #5a6a7a; text-anchor: middle; dominant-baseline: middle; }
+    .lbl-scale { font-size: 11px; fill: #8a9aaa; text-anchor: end; dominant-baseline: middle; }
+    .lbl-group { font-size: 10px; fill: #aab4be; text-anchor: middle; font-style: italic; }
+    .conn { stroke: #8a9aaa; stroke-width: 1; stroke-dasharray: 4 3; fill: none; }
+    .edge { stroke: #5a6a7a; stroke-width: 1.5; fill: none; }
+    .seq  { stroke: #8a9aaa; stroke-width: 1; fill: none; }
+  </style>
+
+  <!-- Background -->
+  <rect width="720" height="590" fill="#f8f8f8"/>
+
+  <!-- Title -->
+  <text x="130" y="34" class="title">The Hierarchy of Search</text>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- MIGRATION                                  -->
+  <!-- ══════════════════════════════════════════ -->
+  <rect id="node-migration" x="130" y="68" width="230" height="58" rx="10" class="node-main"/>
+  <text x="245" y="97" class="lbl-main">Migration</text>
+
+  <!-- Scale labels -->
+  <text x="118" y="90"  class="lbl-scale">Ocean basin</text>
+  <text x="118" y="104" class="lbl-scale">~1,000s km</text>
+
+  <!-- Group label -->
+  <text x="502" y="46" class="lbl-group">Navigation cues</text>
+
+  <!-- Sub-nodes -->
+  <rect id="node-magnetic"      x="415" y="58"  width="175" height="34" rx="6" class="node-sub"/>
+  <text x="502" y="75"  class="lbl-sub">Magnetic map</text>
+
+  <rect id="node-olfactory-nav" x="415" y="100" width="175" height="34" rx="6" class="node-sub"/>
+  <text x="502" y="117" class="lbl-sub">Olfactory imprinting</text>
+
+  <rect id="node-social"        x="415" y="142" width="175" height="34" rx="6" class="node-sub"/>
+  <text x="502" y="159" class="lbl-sub">Social route knowledge</text>
+
+  <!-- Connectors: right edge of migration (x=360) to sub-node left edges (x=415) -->
+  <line x1="360" y1="85"  x2="415" y2="75"  class="conn"/>
+  <line x1="360" y1="97"  x2="415" y2="117" class="conn"/>
+  <line x1="360" y1="109" x2="415" y2="159" class="conn"/>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- ARROW 1: Migration → Searching             -->
+  <!-- ══════════════════════════════════════════ -->
+  <line id="edge-migration-searching" x1="245" y1="126" x2="245" y2="250" class="edge" marker-end="url(#arrow)"/>
+  <rect x="148" y="178" width="194" height="20" rx="3" fill="#edf1f6"/>
+  <text x="245" y="188" class="lbl-edge">delivers animal to foraging region</text>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- SEARCHING                                  -->
+  <!-- ══════════════════════════════════════════ -->
+  <rect id="node-searching" x="130" y="252" width="230" height="58" rx="10" class="node-main"/>
+  <text x="245" y="281" class="lbl-main">Searching</text>
+
+  <!-- Scale labels -->
+  <text x="118" y="274" class="lbl-scale">Regional</text>
+  <text x="118" y="288" class="lbl-scale">10–100s km</text>
+
+  <!-- Group label -->
+  <text x="502" y="228" class="lbl-group">Strategies</text>
+
+  <!-- Sub-nodes -->
+  <rect id="node-levy"      x="415" y="240" width="175" height="34" rx="6" class="node-sub"/>
+  <text x="502" y="257" class="lbl-sub">Lévy / Brownian switching</text>
+
+  <rect id="node-vertical"  x="415" y="282" width="175" height="34" rx="6" class="node-sub"/>
+  <text x="502" y="299" class="lbl-sub">Vertical dive sampling</text>
+
+  <rect id="node-directed"  x="415" y="324" width="175" height="34" rx="6" class="node-sub"/>
+  <text x="502" y="341" class="lbl-sub">Directed approach</text>
+
+  <!-- Connectors -->
+  <line x1="360" y1="269" x2="415" y2="257" class="conn"/>
+  <line x1="360" y1="281" x2="415" y2="299" class="conn"/>
+  <line x1="360" y1="293" x2="415" y2="341" class="conn"/>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- ARROW 2: Searching → Final Mile            -->
+  <!-- ══════════════════════════════════════════ -->
+  <line id="edge-searching-finalmile" x1="245" y1="310" x2="245" y2="438" class="edge" marker-end="url(#arrow)"/>
+  <rect x="148" y="364" width="194" height="20" rx="3" fill="#edf1f6"/>
+  <text x="245" y="374" class="lbl-edge">locates productive feature</text>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- THE FINAL MILE                             -->
+  <!-- ══════════════════════════════════════════ -->
+  <rect id="node-finalmile" x="130" y="440" width="230" height="58" rx="10" class="node-main"/>
+  <text x="245" y="469" class="lbl-main">The Final Mile</text>
+
+  <!-- Scale labels -->
+  <text x="118" y="462" class="lbl-scale">Prey</text>
+  <text x="118" y="476" class="lbl-scale">&lt; 1 km</text>
+
+  <!-- Group label -->
+  <text x="502" y="408" class="lbl-group">Senses</text>
+
+  <!-- Sub-nodes -->
+  <rect id="node-sound"     x="415" y="420" width="175" height="34" rx="6" class="node-sub"/>
+  <text x="502" y="432" class="lbl-sub">Sound</text>
+  <text x="502" y="446" font-family="sans-serif" font-size="10" fill="#8a9aaa" font-style="italic" text-anchor="middle">longer range</text>
+
+  <rect id="node-olfaction" x="415" y="470" width="175" height="34" rx="6" class="node-sub"/>
+  <text x="502" y="482" class="lbl-sub">Olfaction</text>
+  <text x="502" y="496" font-family="sans-serif" font-size="10" fill="#8a9aaa" font-style="italic" text-anchor="middle">longer range</text>
+
+  <rect id="node-vision"    x="415" y="520" width="175" height="34" rx="6" class="node-sub"/>
+  <text x="502" y="537" class="lbl-sub">Vision</text>
+
+  <!-- Connectors: final mile main node to all three sensory sub-nodes -->
+  <line x1="360" y1="457" x2="415" y2="437" class="conn"/>
+  <line x1="360" y1="469" x2="415" y2="487" class="conn"/>
+  <line x1="360" y1="481" x2="415" y2="537" class="conn"/>
+
+  <!-- ══════════════════════════════════════════ -->
+  <!-- LEFT SCALE BRACKET                         -->
+  <!-- ══════════════════════════════════════════ -->
+  <line x1="22" y1="68"  x2="22" y2="498" stroke="#c8d0d8" stroke-width="1.5"/>
+  <line x1="22" y1="68"  x2="34" y2="68"  stroke="#c8d0d8" stroke-width="1.5"/>
+  <line x1="22" y1="498" x2="34" y2="498" stroke="#c8d0d8" stroke-width="1.5"/>
+  <text x="17" y="283" font-family="sans-serif" font-size="10" fill="#c8d0d8"
+        text-anchor="middle" transform="rotate(-90 17 283)">ocean basin → individual prey</text>
+
+</svg>

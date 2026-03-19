@@ -22,7 +22,9 @@ Extract the project path and the target section from the user's message. Read `<
 
 Wait for confirmation before proceeding.
 
-### 2. Ask for the writing type
+### 2. Ask for the writing type (prose sections only)
+
+Scan the target section in `Sketch.md` for `[paragraph]` objects. If any are present:
 
 Ask the user:
 
@@ -30,19 +32,36 @@ Ask the user:
 
 **Exception:** if the section being drafted is `[abstract]` (no topic sentence, no supporting bullets), infer the type as `abstract` automatically and skip this question.
 
-### 3. Ask for the output format
+If no `[paragraph]` objects are present, skip this step.
+
+### 3. Ask for the drawing style (diagram sections only)
+
+Scan the target section in `Sketch.md` for `[diagram]` objects. If any are present:
 
 Ask the user:
+
+> "What drawing style?" (e.g. conceptual_map)
+
+If no `[diagram]` objects are present, skip this step.
+
+### 4. Ask for the output format (prose sections only)
+
+If `[paragraph]` objects are present, ask the user:
 
 > "What output format?" (default: markdown)
 
 Common options: markdown, LaTeX. If the user doesn't specify, proceed with markdown.
 
-### 4. Load guidelines
+Diagrams are always rendered as SVG. No format question is needed for `[diagram]` objects.
 
-Load `references/<type>.md` from within this skill's directory. If no file exists for that type, tell the user and note you'll proceed without guidelines, but recommend creating one after the session.
+### 5. Load guidelines
 
-### 5. Read the current draft
+- For prose: load `references/<writing_type>.md` from within this skill's directory.
+- For diagrams: load `references/<drawing_style>.md` from within this skill's directory.
+
+If no file exists for a requested type or style, tell the user and note you'll proceed without guidelines, but recommend creating one after the session.
+
+### 6. Read the current draft
 
 Read `<project_path>/Draft.md` if it exists. Identify whether the target section is already present in the draft. If it is, you will replace it; if it isn't, you will add it.
 
@@ -70,6 +89,29 @@ Each object begins with a type tag: `[paragraph]`, `[references]`, etc. Process 
 **`[paragraph]`** — render as prose. The lead sentence opens the paragraph; development bullets become the flowing sentences that follow.
 
 **`[abstract]`** — this object has no sketch content. Instead, read the full `Draft.md` (excluding any existing abstract placeholder) and synthesize a self-contained abstract from the finished sections. Apply the abstract guidelines. This is the one object type where the source material is the draft, not the sketch.
+
+**`[diagram]`** — render as a standalone SVG file. The sketch entry consists of a short descriptive label followed by an optional `> Notes` block:
+
+```
+[diagram] The hierarchy of search.
+> Notes
+> - bullet specifying nodes, edges, groupings, labels, annotations
+> - bullet specifying scale, sequence, or other drawing decisions
+```
+
+The label names the diagram; the surrounding sketch sections provide the underlying content and relationships. The notes add to this — encoding specific drawing decisions (which nodes to include, how to group them, what edge labels to use, what annotations to add) that go beyond what the surrounding sections make obvious. Read all three sources together: surrounding sections for content, notes for drawing specification.
+
+Apply the drawing style guidelines to produce a complete, self-contained SVG. Derive a short slug from the label for the filename (e.g. `hierarchy_of_search.svg`). Save it to `<project_path>/figures/<slug>.svg`.
+
+Insert the following at the corresponding position in `Draft.md`:
+
+```markdown
+![<label>](figures/<slug>.svg)
+
+*Figure N: <figure description — one or two sentences explaining what the diagram shows and why it is included.*
+```
+
+The figure description is prose, written to the same standard as the rest of the draft. It should tell a reader who has not yet looked at the diagram what it shows and what to take from it.
 
 **`[references]`** — read the `.bib` file at the path specified in the sketch entry. Render the references according to the output format:
 - *markdown*: a formatted reference list (author, year, title, journal, etc.), one entry per line
