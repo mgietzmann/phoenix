@@ -27,6 +27,8 @@ The document uses markdown headers (`##`, `###`) to organize sections and subsec
 - **`[table]`** — a schema or data structure unit. Consists of a description of what the table represents, followed by the markdown table as the body, then an optional `> Notes` blockquote with clarifying notes.
 - **`[code]`** — a code example unit. Consists of a language identifier and description on the same line as the tag, followed by a fenced code block.
 - **`[enumeration]`** — a named list unit. Consists of a lead sentence introducing the set, followed by a `> Supporting` blockquote where each bullet is a named, parallel item. Use when the content is a set of distinct items a reader would scan rather than read linearly.
+- **`[diagram]`** — a diagram unit. Consists of a short descriptive label, followed by an optional `> Notes` blockquote with drawing decisions (which nodes to include, how to group them, edge labels, annotations, scale, sequence, title overrides). Use when a relationship, hierarchy, or system boundary is more efficiently communicated visually than in prose.
+- **`[abstract]`** — a placeholder for an abstract. No content follows the tag — the abstract is synthesized from the finished draft at drafting time, not written in the sketch. Use at the top of the sketch to reserve the abstract's position in the document.
 - **`[references]`** — a reference list. The file path to the `.bib` file containing the raw citation data follows the tag on the same line.
 
 ### Annotations
@@ -68,10 +70,19 @@ Annotations are inline markers that can appear anywhere in the sketch — before
 ```
 
 
+[diagram] short descriptive label
+> Notes
+> - [drawing decision]
+> - [drawing decision]
+
+
+[abstract]
+
+
 [references] path/to/references.bib
 ```
 
-The type tag is always the first thing on the line. For `[paragraph]`, the topic sentence follows on the same line. For `[table]`, the description follows on the same line and the markdown table comes immediately after. For `[code]`, the language and description follow on the same line and the fenced code block comes immediately after. For `[references]`, the file path follows on the same line. There are no `---` separators between objects; blank lines and collapsible blockquotes do the work.
+The type tag is always the first thing on the line. For `[paragraph]`, the topic sentence follows on the same line. For `[table]`, the description follows on the same line and the markdown table comes immediately after. For `[code]`, the language and description follow on the same line and the fenced code block comes immediately after. For `[diagram]`, the label follows on the same line and the optional `> Notes` blockquote comes immediately after. For `[abstract]`, nothing follows the tag. For `[references]`, the file path follows on the same line. There are no `---` separators between objects; blank lines and collapsible blockquotes do the work.
 
 ### Rules
 

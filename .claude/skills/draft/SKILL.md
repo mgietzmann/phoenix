@@ -40,7 +40,9 @@ Scan the target section in `Sketch.md` for `[diagram]` objects. If any are prese
 
 Ask the user:
 
-> "What drawing style?" (e.g. conceptual_map)
+> "What drawing style?" (e.g. `conceptual_map`, `system_context`)
+
+Available styles (reference files in `references/`): `conceptual_map`, `system_context`. If the user names a style with no corresponding reference file, proceed without guidelines and recommend creating one after the session.
 
 If no `[diagram]` objects are present, skip this step.
 
@@ -59,7 +61,7 @@ Diagrams are always rendered as SVG. No format question is needed for `[diagram]
 - For prose: load `references/<writing_type>.md` from within this skill's directory.
 - For diagrams: load `references/<drawing_style>.md` from within this skill's directory.
 
-If no file exists for a requested type or style, tell the user and note you'll proceed without guidelines, but recommend creating one after the session.
+If no file exists for a requested prose type, tell the user and note you'll proceed without guidelines, but recommend creating one after the session.
 
 ### 6. Read the current draft
 
@@ -99,14 +101,14 @@ Each object begins with a type tag: `[paragraph]`, `[references]`, etc. Process 
 > - bullet specifying scale, sequence, or other drawing decisions
 ```
 
-The label names the diagram; the surrounding sketch sections provide the underlying content and relationships. The notes add to this — encoding specific drawing decisions (which nodes to include, how to group them, what edge labels to use, what annotations to add) that go beyond what the surrounding sections make obvious. Read all three sources together: surrounding sections for content, notes for drawing specification.
+The label is a working description of the diagram; the surrounding sketch sections provide the underlying content and relationships. The notes add to this — encoding specific drawing decisions (which nodes to include, how to group them, what edge labels to use, what annotations to add, and any title override) that go beyond what the surrounding sections make obvious. Read all three sources together: surrounding sections for content, notes for drawing specification.
 
-Apply the drawing style guidelines to produce a complete, self-contained SVG. Derive a short slug from the label for the filename (e.g. `hierarchy_of_search.svg`). Save it to `<project_path>/figures/<slug>.svg`.
+Apply the drawing style guidelines to produce a complete, self-contained SVG. Derive a short slug from the label for the filename (e.g. `hierarchy_of_search.svg`). If the notes specify a title, use that as the figure title; otherwise use the label. Save the file to `<project_path>/figures/<slug>.svg`.
 
 Insert the following at the corresponding position in `Draft.md`:
 
 ```markdown
-![<label>](figures/<slug>.svg)
+![<title>](figures/<slug>.svg)
 
 *Figure N: <figure description — one or two sentences explaining what the diagram shows and why it is included.*
 ```

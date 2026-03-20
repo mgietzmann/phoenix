@@ -66,4 +66,5 @@ A conceptual map shows how ideas, entities, or processes relate to one another. 
 - **Unlabelled edges**: an arrow between two nodes that could mean several things is worse than no arrow. Either label it or remove it.
 - **Symmetric layout for asymmetric content**: a perfectly symmetric radial layout implies all concepts are equally related to the centre. If the content has directionality or sequence, let the layout reflect it.
 - **Labels that fight the edges**: route edges to avoid running through node labels. If unavoidable, use a small white rectangle behind the label to create a clear background.
+- **Edge labels in tight gaps**: when the gap between adjacent nodes is narrow (≤ 60px), position the edge label *below* the arrow rather than above it. This keeps the label in the background space between nodes and prevents it from overlapping with node fills.
 - **Too many edge styles**: if you find yourself reaching for a fourth line style, the diagram is carrying too much information. Consider splitting it into two diagrams.
