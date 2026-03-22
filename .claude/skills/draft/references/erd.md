@@ -21,7 +21,7 @@ erDiagram
 
 The sketch distinguishes three types of entities. Treat them differently in the diagram:
 
-**Object tables** (shown in bold in the sketch, have `key` and `version` fields) — these are the top-level versioned artifacts. Mark `key` as `PK` and version foreign key fields as `FK`.
+**Object tables** (shown in bold in the sketch, have `key` and `version` fields) — these are the top-level versioned artifacts. Mark both `key` and `version` as `PK` (they form a composite primary key together) and version foreign key fields as `FK`.
 
 **Child tables** (appear as columns in the sketch's markdown tables, linked via a `_version` field on the parent) — these are owned by a single Object. Show them with their own fields and a `PK` on their version field.
 
@@ -39,9 +39,10 @@ Label ownership edges with what the child table represents (e.g. `"has BFCs"`, `
 ## Fields
 
 Include all fields from the sketch tables. Annotate:
-- `key` fields: `PK`
+- `key` fields on Object tables: `PK`
+- `version` fields on Object tables: `PK` (composite PK with `key`)
 - `_version` fields that are foreign keys to other tables: `FK`
-- `_version` fields that identify the table's own version: `PK`
+- `_version` fields that identify a child/nomenclature table's own version: `PK`
 
 Use types that reflect the data: `string`, `float`, `int`, `boolean`, `geometry`.
 

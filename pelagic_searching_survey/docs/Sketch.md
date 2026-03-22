@@ -199,17 +199,20 @@
 
 [paragraph] At the horizontal scale, predators switch between two search modes depending on prey density.
 > Supporting
-> - (Humphries, 2010)(Humphries, 2012) When in prey-sparse, oligotrophic waters, marine predators like silky sharks and bigeye tuna adopt Lévy flights — clusters of small steps interspersed with occasional long-distance jumps to find new patches; when these same animals enter productive hotspots like continental shelves or thermal fronts, they switch to Brownian motion for intensive localized search. The key adaptation is the switching itself: reading environmental context and changing strategy accordingly.
-> - Lévy flights minimize the likelihood of revisiting patches already searched.
-> - (Gallagher, 2026) Blue sharks with high energy stores (plasma triglycerides) exhibit directed, "transient" behavior, ranging across the ocean to seek distant resource patches. Conversely, sharks with low energy reserves are often restricted to convoluted, "resident" movements as they search for food in their immediate vicinity
+> - (Humphries, 2010)(Humphries, 2012) There is a hypothesis that when searching beyond the reach of senses animals should perform Lévy flights — clusters of small steps interspersed with occasional long-distance jumps to find new patches - but when these same animals enter productive hotspots like continental shelves or thermal fronts, they switch to Brownian motion for intensive localized search.
+> - This is because Lévy flights minimize the likelihood of revisiting patches already searched. The key adaptation is the switching itself: reading environmental context and changing strategy accordingly.
+> - (Humphries, 2012) Such behavior has been recorded in birds that search the pelagic environment however, likely given the coarse resolution on horizontal movements in tagged fish no study has yet demonstrated this for horizontal movements. 
+> - (Humphries, 2010) However, it has been recorded across a range of species including silky sharks and bigeye tuna that they employ this switching behavior in their diving patterns. 
+> - Thus it seems likely, although remains unproven, that they would exhibit such similar switching behavior at the horizontal scale. 
+> - (Gallagher, 2026) The converse of this - switching behaviors depending on satiation - has been observed with Blue sharks with high energy stores (plasma triglycerides) exhibiting directed, "transient" behavior, ranging across the ocean to seek distant resource patches whereas sharks with low energy reserves are often restricted to convoluted, "resident" movements as they search for food in their immediate vicinity
 
 
 
-[paragraph] Vertically, predators use structured diving behaviour to sample depth layers.
+[paragraph] Vertically, in addition to Lévy flights and Brownian motion, predators have been observed using structured diving behaviour to sample depth layers.
 > Supporting
 > - (Braun, 2023) Predators like swordfish and shortfin mako sharks regularly dive into the twilight zone (200–1,000 m) and occasionally the midnight zone (below 1,000 m) to track the deep scattering layer
-> - (Horton, 2025) Yellowfin exhibit spike dives that may represent attempts to gain navigational cues by sampling the water column.
 > - (Queiroz, 2017) V-dives are likely used to search the water column quickly whereas U-dives seem to indicate foraging.
+> - (Horton, 2025) Yellowfin exhibit spike dives that may represent attempts to gain navigational cues by sampling the water column.
 
 
 
@@ -451,6 +454,7 @@
 
 [paragraph] Beyond this, the tools we already have — satellite tags, occurrence datasets, habitat models — need to be extended in scope and sharpened in resolution to better characterize pelagic search behavior.
 > Supporting
+> - This is required to better understand search in the horizontal direction as today's electronic tags provide very coarse resolution in this dimension. 
 > - (Filous, 2022) (Queiroz, 2019)  A high priority is developing smaller, more robust satellite tags attachable to diverse life stages and species currently too small to track
 > - (Queiroz, 2019) There is an urgent need for more fishery-independent occurrence data to identify predator "hotspots"
 > - (Braun, 2023) Future models need to move beyond simple depth predictions to incorporate variations in biomass and community composition within different layers (e.g., shallow vs. deep-bathypelagic) to better reflect real-world search conditions
