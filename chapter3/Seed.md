@@ -1,0 +1,9 @@
+# Chapter 3: A Retrievable Tag for High-Frequency Motion Reconstruction
+
+The central challenge of a satellite-linked biologger is the satellite. Licensing, negotiation, and hardware partnerships can stall a project for years — time a PhD student doesn't have. But the science that satellite connectivity enables — knowing where a fish is and what it's doing — doesn't require a satellite to be proven out. This chapter proposes a different path: build a retrievable, satellite-free tag that demonstrates everything except the final link.
+
+The argument has three parts. First, that an inertial measurement unit (IMU) sampled at sufficient frequency can reconstruct fine-scale fish movement. Without this, nothing else matters. Second, that such a device can be packaged to survive attachment to a marine fish of reasonable size. Third, that the tag can be relocated at sea — not via Argos or GPS, but via a low-cost RF ping that lets a researcher triangulate its position and physically retrieve it.
+
+Together, these three demonstrations produce something genuinely useful independent of any satellite. A cheap, open-architecture tag capable of logging high-frequency accelerometer and gyroscope data, deployable offshore, and recoverable, would fill a real gap. It would also generate the kind of rich training data — actual strike events, behavioral modes, fine-scale kinematics — that could supervise the low-resolution classifiers running on future satellite tags.
+
+The hidden payoff is institutional. Proving that a working, RF-capable tag can be built cheaply and from scratch gives me the standing to walk into a conference and ask: *why does access to a satellite cost this much, and can you help me solve the last piece?* Chapter 3 is, in that sense, not a detour from the satellite tag ambition — it is the credential that makes that conversation possible.

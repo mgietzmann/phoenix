@@ -125,3 +125,35 @@ Tell the user:
 - Where the skill was created
 - What triggers it (the key phrases or conditions from the description)
 - Any environment requirements (API keys, system tools)
+
+---
+
+## Designing a good skill
+
+### Avoid whack-a-mole
+
+Do not add a rule for every bad output. A laundry list of patches creates confusion and rarely produces coherent behavior. Instead: step back, identify what's going well and what isn't, find good abstractions. Sometimes that means consulting domain experts or books and encoding those insights. Aim for a small set of principles, not a long list of fixes.
+
+### Collaborate with Claude on the skill itself
+
+Don't hand Claude a document you wrote alone — things obvious to you will be opaque to it. When helping a user build a skill, ask: what makes sense here? what's confusing? how would you interpret this rule? Ask Claude to demonstrate how it would behave given the skill to surface mismatches before they become bad outputs.
+
+### Build in a feedback mechanism
+
+No non-trivial skill works perfectly off the bat. Build in a review step: examine what was created, what went well, what didn't. Use that to identify missing rules, bad abstractions, or gaps — then update the skill. Iterate until corrections become minor or disappear.
+
+### Scope the workflow tightly
+
+A skill for "write a paper" is doomed. A skill for "draft paragraphs in a section" can be made to work reliably. Small, bounded workflows produce tight feedback loops and skills that actually improve. Once individual steps work well, they can be composed — but only then.
+
+### Design around atomic artifacts
+
+Skills should operate on specific components and leave the rest alone. Monolithic generation feels fast but editing becomes catastrophic — if one section changes, nothing else should be touched. Encourage users to structure their work so each skill operates on one piece.
+
+### Suit the user
+
+The goal is not automation or raw intelligence — it is removing friction from workflows that bring out the user's best work. Ask: what does the user enjoy? what makes them effective? Design the skill around that, not just what is technically possible.
+
+### Keep skills human-readable
+
+A good skill must be a document a person can read, review, and understand. Collaborating on a skill is like collaborating on code — you need to review changes. As a skill grows, invest in structure and organization, not just content. A mature skill is effectively a guide to the domain.
